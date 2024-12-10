@@ -3,9 +3,11 @@ from pdf2image import convert_from_bytes
 import os
 import io
 import json
-from api.apiclc import upload, classification, ocr_sino_nom  # Import các hàm từ module apiclc
+# from api.apiclc import upload, classification, ocr_sino_nom  # Import các hàm từ module apiclc
 from PIL import Image
-from extract_ocr import pdf_to_images  # Import hàm từ module extract_ocr
+from extract_ocr import pdf_to_images  
+from ocr_API import upload_image, ocr_image, save_results,log_message  
+
 
 TEMP_FOLDER = "./temp_images"
 OUTPUT_FOLDER = "./ocr_results"
@@ -50,34 +52,30 @@ if uploaded_file:
                 file_name = os.path.basename(image_path)
 
                 # Gọi API upload ảnh
-                server_file_name = upload(image_path, file_name)
-                if not server_file_name:
-                    st.error(f"Không thể upload file: {file_name}")
+                uploaded_file_name = upload_image(image_path)
+                if not uploaded_file_name:
+                    st.error(f"Không thể upload file: {image_path}")
                     continue
 
-                # Gọi API phân loại (classification)
-                ocr_id = classification(server_file_name)
-                if not ocr_id:
-                    st.error(f"Không thể phân loại file: {file_name}")
-                    continue
+                # # Gọi API phân loại (classification)
+                # ocr_id = classification(server_file_name)
+                # if not ocr_id:
+                #     st.error(f"Không thể phân loại file: {file_name}")
+                #     continue
 
                 # Gọi API OCR
-                ocr_result = ocr_sino_nom(file_name, server_file_name, ocr_id)
-                if ocr_result:
-                    # Lưu kết quả
-                    output_path = os.path.join(OUTPUT_FOLDER, f"{os.path.splitext(file_name)[0]}.json")
-                    with open(output_path, "w", encoding="utf-8") as output_file:
-                        json.dump(ocr_result, output_file, ensure_ascii=False, indent=4)
-                    st.success(f"OCR thành công: {file_name}")
-                    results.append(ocr_result)
+                if uploaded_file_name:
+                # OCR hình ảnh
+                    ocr_text, ocr_bbox = ocr_image(uploaded_file_name)
+                    if ocr_text:
+                        # Lưu kết quả OCR
+                        save_results(file_name, ocr_text, ocr_bbox)
+                    else:
+                        log_message(f"Thất bại khi OCR: {file_name}")
                 else:
-                    st.error(f"OCR thất bại: {file_name}")
-
-            # Hiển thị kết quả
-            if results:
-                st.write("Kết quả OCR:")
-                for result in results:
-                    st.json(result)
+                    log_message(f"Thất bại khi upload: {file_name}")
+        st.write("Xử lý OCR hoàn tất!")
+                
 
     except Exception as e:
         st.error(f"Lỗi xử lý PDF: {str(e)}")

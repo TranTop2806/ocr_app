@@ -125,25 +125,3 @@ def ocr_sino_nom(file_name, server_file_name, ocr_id):
     return None
 
 
-if __name__ == "__main__":
-    # Thư mục chứa ảnh
-    folder_path = "./TestSino/"
-    text_path = "./TestSino/TextFiles"
-    os.makedirs(text_path, exist_ok=True)
-
-    file_names = os.listdir(folder_path)
-    file_names.sort()
-
-    for file_name in file_names:
-        file_path = os.path.join(folder_path, file_name)
-
-        if os.path.isfile(file_path) and file_name.lower().endswith(('png', 'jpg', 'jpeg')):
-            server_file_name = upload(file_path, file_name)
-            if server_file_name:
-                ocr_id = classification(server_file_name)
-                if ocr_id:
-                    text = ocr_sino_nom(file_name, server_file_name, ocr_id)
-                    if text:
-                        output_path = os.path.join(text_path, f"{os.path.splitext(file_name)[0]}.json")
-                        with open(output_path, "w", encoding="utf-8") as output_file:
-                            json.dump(text.get("result_bbox", {}), output_file, ensure_ascii=False, indent=4)
