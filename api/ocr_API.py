@@ -2,6 +2,7 @@ import os
 import requests
 import json
 from datetime import datetime
+import time
 
 # URLs của API
 URL_UPLOAD = "https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-upload"
@@ -11,7 +12,8 @@ URL_OCR = "https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr"
 IMAGE_DIR = "./temp_images"
 # Đường dẫn lưu kết quả OCR
 OUTPUT_DIR = "./ocr_results"
-
+DELAY = 12  # Thời gian chờ giữa các lần retry
+MAX_RETRIES = 3
 # Đảm bảo thư mục lưu kết quả tồn tại
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -40,9 +42,32 @@ def upload_image(file_path):
         log_message(f"HTTP lỗi khi upload {file_path}: {response.status_code}")
     return None
 
-def ocr_image(file_name):
+def classification(server_file_name):
+ 
+    api_url = "https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-classification"
+    payload = {"file_name": server_file_name}
+
+    response = requests.post(api_url, json=payload, headers=HEADERS)
+    if response.status_code == 200:
+        try:
+            json_data = response.json()
+            if json_data.get("is_success"):
+                print(f"[Classification] Successfully classified {server_file_name}")
+                return json_data.get("data", {}).get("ocr_id")
+            else:
+                print(f"[Classification] Failed to classify {server_file_name}, retrying...")
+        except (ValueError, KeyError) as e:
+            print(f"[Classification] JSON parsing error: {str(e)}")
+    else:
+        print(f"[Classification] Error {response.status_code}: {response.text}")
+    # time.sleep(DELAY)
+
+    print(f"[Classification] Max retries reached. Failed to classify {server_file_name}")
+    return None
+
+def ocr_image(file_name, ocr_id=1):
     """Thực hiện OCR trên hình ảnh đã tải lên."""
-    ocr_payload = {"ocr_id": 1, "file_name": file_name}
+    ocr_payload = {"ocr_id": ocr_id, "file_name": file_name}
     response = requests.post(
         URL_OCR,
         json=ocr_payload,
