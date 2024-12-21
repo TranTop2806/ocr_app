@@ -6,7 +6,7 @@ import json
 # from api.apiclc import upload, classification, ocr_sino_nom  # Import các hàm từ module apiclc
 from PIL import Image
 from utils.extract_ocr import pdf_to_images  
-from api.ocr_API import upload_image,classification ,ocr_image, save_results,log_message  
+from api.CLCapi import upload_image,classification ,ocr_image, save_results,log_message  
 
 
 TEMP_FOLDER = "./temp_images"

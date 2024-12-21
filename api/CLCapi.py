@@ -7,7 +7,7 @@ import time
 # URLs của API
 URL_UPLOAD = "https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-upload"
 URL_OCR = "https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr"
-
+URL_TRANS = ""
 # Đường dẫn thư mục chứa hình ảnh cần OCR
 IMAGE_DIR = "./temp_images"
 # Đường dẫn lưu kết quả OCR
