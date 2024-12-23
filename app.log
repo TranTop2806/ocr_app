@@ -1,0 +1,1856 @@
+2024-12-20 16:55:20,198 - comsumer-han-0 - INFO - Consumer-han-0 Start Working ....
+2024-12-20 16:55:20,199 - comsumer-han-1 - INFO - Consumer-han-1 Start Working ....
+2024-12-20 16:57:55,596 - comsumer-han-0 - INFO - Consumer-han-0 Start Working ....
+2024-12-20 16:57:55,596 - comsumer-han-1 - INFO - Consumer-han-1 Start Working ....
+2024-12-20 16:57:55,597 - comsumer-han-0 - ERROR - Consumer-han-0 Start Error: '>=' not supported between instances of 'WorkerConfig' and 'int'
+2024-12-20 17:03:47,862 - comsumer-han-0 - INFO - Consumer-han-0 Start Working ....
+2024-12-20 17:20:43,029 - consumer-han-0 - INFO - Consumer-han-0 Start Working ....
+2024-12-20 17:20:43,029 - consumer-han-1 - INFO - Consumer-han-1 Start Working ....
+2024-12-20 17:20:43,045 - consumer-han-0 - ERROR - Consumer-han-0 Error: 'ApiRequest' object has no attribute 'position'
+2024-12-20 17:23:54,447 - consumer-han-0 - INFO - Consumer-han-0 Start Working ....
+2024-12-20 17:23:54,447 - consumer-han-1 - INFO - Consumer-han-1 Start Working ....
+2024-12-20 17:23:54,455 - consumer-han-0 - ERROR - Consumer-han-0 Error: 'ApiRequest' object has no attribute 'position'
+2024-12-20 17:27:28,664 - consumer-han-0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 17:27:28,664 - consumer-han-1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 17:27:28,664 - consumer-han-0 - ERROR - Consumer_han_0 Error: 'ApiRequest' object has no attribute 'position'
+2024-12-20 17:28:02,133 - consumer-nom-0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 17:28:02,133 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 17:28:02,222 - consumer-nom-0 - ERROR - Consumer_nom_0 Error: HTTPSConnectionPool(host='tools.clc.hcmus.edu.vn', port=443): Max retries exceeded with url: /api/web/clc-sinonom/image-upload (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000026132C19A00>: Failed to resolve 'tools.clc.hcmus.edu.vn' ([Errno 11001] getaddrinfo failed)"))
+2024-12-20 17:31:20,364 - consumer-nom-0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 17:31:20,364 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 17:31:25,378 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 17:37:13,128 - consumer-nom-0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 17:37:13,129 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 17:37:18,138 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 17:37:18,138 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 17:41:37,182 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 17:41:42,188 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 17:41:42,188 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 17:41:47,192 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 17:41:47,192 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 17:41:52,198 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 17:41:52,198 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 17:41:57,205 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 17:41:57,205 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 17:42:16,471 - consumer-nom-0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 17:42:16,471 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 17:42:21,477 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 17:42:21,477 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 17:42:26,480 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 17:42:26,480 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 17:42:31,483 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 17:42:31,483 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 17:42:36,497 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 17:42:36,497 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 17:42:41,499 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_8.png
+2024-12-20 17:42:41,515 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_9.png
+2024-12-20 18:00:06,871 - consumer-nom-0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 18:00:06,872 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 18:00:11,882 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 18:00:11,882 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 18:00:16,894 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 18:00:16,894 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 18:00:21,902 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 18:00:21,902 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 18:00:26,904 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 18:00:26,904 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 18:00:31,920 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_8.png
+2024-12-20 18:00:31,921 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_9.png
+2024-12-20 20:01:22,002 - consumer-nom-0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 20:01:22,002 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 20:01:27,010 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 20:01:27,010 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 20:01:32,017 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 20:01:32,017 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 20:01:37,028 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 20:01:37,030 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 20:01:42,045 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 20:01:42,045 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 20:01:47,052 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_9.png
+2024-12-20 20:01:47,052 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_8.png
+2024-12-20 20:03:36,073 - consumer-nom-0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 20:03:36,073 - consumer-nom-1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 20:03:36,073 - consumer-nom-2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-20 20:03:41,079 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 20:03:41,079 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 20:03:41,079 - consumer-nom-2 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 20:03:46,087 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 20:03:46,087 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 20:03:46,087 - consumer-nom-2 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 20:03:51,100 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 20:03:51,100 - consumer-nom-2 - INFO - Process Successful: data/TQDN_1/page_8.png
+2024-12-20 20:03:51,100 - consumer-nom-0 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 20:03:56,122 - consumer-nom-1 - INFO - Process Successful: data/TQDN_1/page_9.png
+2024-12-20 20:07:07,075 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 20:07:07,076 - Consumer_nom_1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 20:07:07,076 - Consumer_nom_2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-20 20:07:12,085 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 20:07:12,085 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 20:07:12,087 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 20:07:17,099 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 20:07:17,099 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 20:07:17,099 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 20:07:22,110 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 20:07:22,110 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_8.png
+2024-12-20 20:07:22,110 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 20:07:27,122 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_9.png
+2024-12-20 20:11:24,542 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 20:11:24,542 - Consumer_nom_1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 20:11:24,543 - Consumer_nom_2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-20 20:11:29,552 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 20:11:29,553 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 20:11:29,553 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 20:11:34,559 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 20:11:34,559 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 20:11:34,559 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 20:11:39,564 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_8.png
+2024-12-20 20:11:39,564 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 20:11:39,564 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 20:11:44,567 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_9.png
+2024-12-20 20:20:35,414 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-20 20:20:35,414 - Consumer_nom_1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-20 20:20:35,414 - Consumer_nom_2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-20 20:20:40,419 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_0.png
+2024-12-20 20:20:40,419 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-20 20:20:40,419 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-20 20:20:45,432 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-20 20:20:45,432 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-20 20:20:45,434 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-20 20:20:50,440 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_8.png
+2024-12-20 20:20:50,441 - Consumer_nom_1 - INFO - Process Successful: data/TQDN_1/page_7.png
+2024-12-20 20:20:50,440 - Consumer_nom_2 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-20 20:20:55,449 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_9.png
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce NOM message: test_0.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce HAN message: test_1.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce NOM message: test_2.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce HAN message: test_3.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce NOM message: test_4.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce HAN message: test_5.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce NOM message: test_6.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce HAN message: test_7.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce NOM message: test_8.txt
+2024-12-20 20:24:13,095 - Producer_1 - INFO - Produce HAN message: test_9.txt
+2024-12-20 23:27:13,703 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:27:13,703 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:27:13,704 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:27:13,704 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:27:13,704 - Consumer_han_4 - INFO - Consumer_han_4 Start Working ....
+2024-12-20 23:27:13,704 - Consumer_han_5 - INFO - Consumer_han_5 Start Working ....
+2024-12-20 23:27:13,704 - Consumer_han_6 - INFO - Consumer_han_6 Start Working ....
+2024-12-20 23:27:13,705 - Consumer_han_7 - INFO - Consumer_han_7 Start Working ....
+2024-12-20 23:27:13,705 - Consumer_han_8 - INFO - Consumer_han_8 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_9 - INFO - Consumer_han_9 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_10 - INFO - Consumer_han_10 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_11 - INFO - Consumer_han_11 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_12 - INFO - Consumer_han_12 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_13 - INFO - Consumer_han_13 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_14 - INFO - Consumer_han_14 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_15 - INFO - Consumer_han_15 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_16 - INFO - Consumer_han_16 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_17 - INFO - Consumer_han_17 Start Working ....
+2024-12-20 23:27:13,706 - Consumer_han_18 - INFO - Consumer_han_18 Start Working ....
+2024-12-20 23:27:13,708 - Consumer_han_19 - INFO - Consumer_han_19 Start Working ....
+2024-12-20 23:27:13,708 - Consumer_han_20 - INFO - Consumer_han_20 Start Working ....
+2024-12-20 23:27:13,708 - Consumer_han_21 - INFO - Consumer_han_21 Start Working ....
+2024-12-20 23:27:13,708 - Consumer_han_22 - INFO - Consumer_han_22 Start Working ....
+2024-12-20 23:27:13,708 - Consumer_han_23 - INFO - Consumer_han_23 Start Working ....
+2024-12-20 23:27:13,709 - Consumer_han_24 - INFO - Consumer_han_24 Start Working ....
+2024-12-20 23:27:13,709 - Consumer_han_25 - INFO - Consumer_han_25 Start Working ....
+2024-12-20 23:27:13,709 - Consumer_han_26 - INFO - Consumer_han_26 Start Working ....
+2024-12-20 23:27:13,709 - Consumer_han_27 - INFO - Consumer_han_27 Start Working ....
+2024-12-20 23:27:13,709 - Consumer_han_28 - INFO - Consumer_han_28 Start Working ....
+2024-12-20 23:27:13,710 - Consumer_han_29 - INFO - Consumer_han_29 Start Working ....
+2024-12-20 23:27:13,710 - Consumer_han_30 - INFO - Consumer_han_30 Start Working ....
+2024-12-20 23:27:13,710 - Consumer_han_31 - INFO - Consumer_han_31 Start Working ....
+2024-12-20 23:27:13,710 - Consumer_han_32 - INFO - Consumer_han_32 Start Working ....
+2024-12-20 23:27:13,710 - Consumer_han_33 - INFO - Consumer_han_33 Start Working ....
+2024-12-20 23:27:13,710 - Consumer_han_34 - INFO - Consumer_han_34 Start Working ....
+2024-12-20 23:27:13,710 - Consumer_han_35 - INFO - Consumer_han_35 Start Working ....
+2024-12-20 23:27:13,712 - Consumer_han_36 - INFO - Consumer_han_36 Start Working ....
+2024-12-20 23:27:13,712 - Consumer_han_37 - INFO - Consumer_han_37 Start Working ....
+2024-12-20 23:27:13,712 - Consumer_han_38 - INFO - Consumer_han_38 Start Working ....
+2024-12-20 23:27:13,712 - Consumer_han_39 - INFO - Consumer_han_39 Start Working ....
+2024-12-20 23:27:13,712 - Consumer_han_40 - INFO - Consumer_han_40 Start Working ....
+2024-12-20 23:27:13,712 - Consumer_han_41 - INFO - Consumer_han_41 Start Working ....
+2024-12-20 23:27:13,713 - Consumer_han_42 - INFO - Consumer_han_42 Start Working ....
+2024-12-20 23:27:13,713 - Consumer_han_43 - INFO - Consumer_han_43 Start Working ....
+2024-12-20 23:27:13,713 - Consumer_han_44 - INFO - Consumer_han_44 Start Working ....
+2024-12-20 23:27:13,714 - Consumer_han_45 - INFO - Consumer_han_45 Start Working ....
+2024-12-20 23:27:13,714 - Consumer_han_47 - INFO - Consumer_han_47 Start Working ....
+2024-12-20 23:27:13,714 - Consumer_han_46 - INFO - Consumer_han_46 Start Working ....
+2024-12-20 23:27:13,715 - Consumer_han_48 - INFO - Consumer_han_48 Start Working ....
+2024-12-20 23:27:13,715 - Consumer_han_49 - INFO - Consumer_han_49 Start Working ....
+2024-12-20 23:27:13,715 - Consumer_han_50 - INFO - Consumer_han_50 Start Working ....
+2024-12-20 23:27:13,715 - Consumer_han_52 - INFO - Consumer_han_52 Start Working ....
+2024-12-20 23:27:13,715 - Consumer_han_51 - INFO - Consumer_han_51 Start Working ....
+2024-12-20 23:27:13,716 - Consumer_han_54 - INFO - Consumer_han_54 Start Working ....
+2024-12-20 23:27:13,715 - Consumer_han_53 - INFO - Consumer_han_53 Start Working ....
+2024-12-20 23:27:13,716 - Consumer_han_55 - INFO - Consumer_han_55 Start Working ....
+2024-12-20 23:27:13,716 - Consumer_han_56 - INFO - Consumer_han_56 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_58 - INFO - Consumer_han_58 Start Working ....
+2024-12-20 23:27:13,716 - Consumer_han_57 - INFO - Consumer_han_57 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_59 - INFO - Consumer_han_59 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_61 - INFO - Consumer_han_61 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_60 - INFO - Consumer_han_60 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_62 - INFO - Consumer_han_62 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_63 - INFO - Consumer_han_63 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_64 - INFO - Consumer_han_64 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_65 - INFO - Consumer_han_65 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_66 - INFO - Consumer_han_66 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_67 - INFO - Consumer_han_67 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_68 - INFO - Consumer_han_68 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_69 - INFO - Consumer_han_69 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_70 - INFO - Consumer_han_70 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_71 - INFO - Consumer_han_71 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_72 - INFO - Consumer_han_72 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_73 - INFO - Consumer_han_73 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_74 - INFO - Consumer_han_74 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_75 - INFO - Consumer_han_75 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_76 - INFO - Consumer_han_76 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_77 - INFO - Consumer_han_77 Start Working ....
+2024-12-20 23:27:13,717 - Consumer_han_78 - INFO - Consumer_han_78 Start Working ....
+2024-12-20 23:27:13,721 - Consumer_han_79 - INFO - Consumer_han_79 Start Working ....
+2024-12-20 23:27:13,721 - Consumer_han_80 - INFO - Consumer_han_80 Start Working ....
+2024-12-20 23:27:13,722 - Consumer_han_81 - INFO - Consumer_han_81 Start Working ....
+2024-12-20 23:27:13,722 - Consumer_han_82 - INFO - Consumer_han_82 Start Working ....
+2024-12-20 23:27:13,722 - Consumer_han_83 - INFO - Consumer_han_83 Start Working ....
+2024-12-20 23:27:13,723 - Consumer_han_84 - INFO - Consumer_han_84 Start Working ....
+2024-12-20 23:27:13,723 - Consumer_han_85 - INFO - Consumer_han_85 Start Working ....
+2024-12-20 23:27:13,723 - Consumer_han_86 - INFO - Consumer_han_86 Start Working ....
+2024-12-20 23:27:13,723 - Consumer_han_87 - INFO - Consumer_han_87 Start Working ....
+2024-12-20 23:27:13,723 - Consumer_han_88 - INFO - Consumer_han_88 Start Working ....
+2024-12-20 23:27:13,724 - Consumer_han_89 - INFO - Consumer_han_89 Start Working ....
+2024-12-20 23:27:13,724 - Consumer_han_90 - INFO - Consumer_han_90 Start Working ....
+2024-12-20 23:27:13,724 - Consumer_han_91 - INFO - Consumer_han_91 Start Working ....
+2024-12-20 23:27:13,724 - Consumer_han_92 - INFO - Consumer_han_92 Start Working ....
+2024-12-20 23:27:13,724 - Consumer_han_93 - INFO - Consumer_han_93 Start Working ....
+2024-12-20 23:27:13,725 - Consumer_han_94 - INFO - Consumer_han_94 Start Working ....
+2024-12-20 23:27:13,725 - Consumer_han_95 - INFO - Consumer_han_95 Start Working ....
+2024-12-20 23:27:13,725 - Consumer_han_96 - INFO - Consumer_han_96 Start Working ....
+2024-12-20 23:27:13,725 - Consumer_han_97 - INFO - Consumer_han_97 Start Working ....
+2024-12-20 23:27:13,725 - Consumer_han_98 - INFO - Consumer_han_98 Start Working ....
+2024-12-20 23:27:13,725 - Consumer_han_99 - INFO - Consumer_han_99 Start Working ....
+2024-12-20 23:27:14,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:27:14,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:27:14,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:27:14,085 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:27:14,085 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:27:14,085 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:27:19,089 - Consumer_han_5 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-20 23:27:19,090 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-20 23:27:19,090 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-20 23:27:19,089 - Consumer_han_4 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-20 23:27:19,090 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-20 23:27:19,090 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-20 23:28:39,863 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:28:39,863 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:28:39,863 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:28:39,863 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:28:40,186 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:28:40,187 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:28:40,187 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:28:40,187 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:28:40,187 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:28:40,187 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:28:45,187 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-20 23:28:45,187 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-20 23:28:45,196 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-20 23:28:45,196 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-20 23:28:50,204 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-20 23:28:50,204 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-20 23:29:54,339 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:29:54,339 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:29:54,339 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:29:54,339 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:29:54,654 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:29:54,654 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:29:54,654 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:29:54,654 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:29:54,654 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:29:54,654 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:29:59,666 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-20 23:29:59,666 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-20 23:29:59,666 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-20 23:29:59,666 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-20 23:29:59,666 - App - INFO - Consumer Consumer_han_0 stopped
+2024-12-20 23:30:04,682 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-20 23:30:04,682 - App - INFO - Consumer Consumer_han_1 stopped
+2024-12-20 23:30:04,682 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-20 23:30:09,694 - App - INFO - Consumer Consumer_han_2 stopped
+2024-12-20 23:30:14,697 - App - INFO - Consumer Consumer_han_3 stopped
+2024-12-20 23:39:04,437 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:39:04,439 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:39:04,439 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:39:04,439 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:39:04,757 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:39:04,757 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:39:04,757 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:39:04,759 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:39:04,759 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:39:04,759 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:39:09,769 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-20 23:39:09,769 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-20 23:39:09,769 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-20 23:39:09,769 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-20 23:39:14,780 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-20 23:39:14,780 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-20 23:39:34,807 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-20 23:39:34,807 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-20 23:39:39,819 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-20 23:39:39,819 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-20 23:43:17,970 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:43:17,970 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:43:17,970 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:43:17,970 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:43:18,281 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:43:18,281 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:43:18,281 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:43:18,281 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:43:18,288 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:43:18,288 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:43:23,301 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : 201
+2024-12-20 23:43:23,301 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : 201
+2024-12-20 23:43:23,301 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : 201
+2024-12-20 23:43:23,301 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : 201
+2024-12-20 23:43:33,316 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : 201
+2024-12-20 23:43:33,316 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : 201
+2024-12-20 23:43:33,316 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : 201
+2024-12-20 23:43:33,316 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : 201
+2024-12-20 23:43:43,332 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : 201
+2024-12-20 23:43:43,332 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : 201
+2024-12-20 23:43:43,332 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : 201
+2024-12-20 23:43:43,333 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : 201
+2024-12-20 23:43:53,349 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : 201
+2024-12-20 23:43:53,349 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : 201
+2024-12-20 23:44:03,369 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : 201
+2024-12-20 23:44:03,369 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : 201
+2024-12-20 23:44:13,374 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : 201
+2024-12-20 23:44:13,374 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : 201
+2024-12-20 23:44:13,374 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-20 23:44:13,374 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-20 23:44:31,681 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:44:31,681 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:44:31,681 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:44:31,681 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:44:31,999 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:44:31,999 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:44:31,999 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:44:32,000 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:44:32,000 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:44:32,000 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:44:37,002 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:44:37,002 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:44:37,002 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:44:37,002 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:44:47,017 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:44:47,017 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:44:47,017 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:44:47,017 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:44:57,036 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:44:57,036 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:44:57,036 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:44:57,036 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:45:07,049 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:45:07,049 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:45:17,058 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:45:17,058 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:45:27,063 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:45:27,063 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-20 23:45:27,063 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:45:27,063 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-20 23:45:57,080 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-20 23:45:57,106 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-20 23:47:32,545 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:47:32,545 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:47:32,545 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:47:32,545 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:47:32,849 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:47:32,849 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:47:32,851 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:47:32,851 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:47:32,851 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:47:32,851 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:47:37,855 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:47:37,855 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:47:37,855 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:47:37,855 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:47:47,875 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:47:47,875 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:47:47,875 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:47:47,875 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:47:57,881 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:47:57,881 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:47:57,881 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:47:57,881 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:48:02,884 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-20 23:48:02,884 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-20 23:48:02,885 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-20 23:48:02,885 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-20 23:48:02,885 - Consumer_han_3 - ERROR - Consumer_han_3 Error: __init__() got an unexpected keyword argument 'message'
+2024-12-20 23:48:02,885 - Consumer_han_2 - ERROR - Consumer_han_2 Error: __init__() got an unexpected keyword argument 'message'
+2024-12-20 23:48:02,885 - Consumer_han_0 - ERROR - Consumer_han_0 Error: __init__() got an unexpected keyword argument 'message'
+2024-12-20 23:48:02,885 - Consumer_han_1 - ERROR - Consumer_han_1 Error: __init__() got an unexpected keyword argument 'message'
+2024-12-20 23:49:34,841 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:49:34,844 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:49:34,844 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:49:34,844 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:49:35,156 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:49:35,156 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:49:35,156 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:49:35,156 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:49:35,156 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:49:35,163 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:49:40,176 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:49:40,176 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:49:40,176 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:49:40,176 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:49:50,190 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:49:50,190 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:49:50,190 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:49:50,190 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:50:00,210 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:50:00,210 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:50:00,210 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:50:00,210 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:50:05,222 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-20 23:50:05,222 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-20 23:50:05,222 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-20 23:50:05,222 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-20 23:50:05,222 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_3.png
+2024-12-20 23:50:05,224 - Consumer_han_3 - WARNING - RePut Message : data/TQDN_1\page_4.png
+2024-12-20 23:50:05,224 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_2.png
+2024-12-20 23:50:05,224 - Consumer_han_0 - WARNING - RePut Message : data/TQDN_1\page_1.png
+2024-12-20 23:50:10,242 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:50:10,242 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:50:10,242 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:50:10,242 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:50:20,250 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:50:20,250 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:50:20,268 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:50:20,268 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:50:30,267 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:50:30,267 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:50:30,284 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:50:30,284 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:50:35,284 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_6.png
+2024-12-20 23:50:35,285 - Consumer_han_3 - WARNING - RePut Message : data/TQDN_1\page_6.png
+2024-12-20 23:50:35,300 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_5.png
+2024-12-20 23:50:35,301 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_5.png
+2024-12-20 23:50:40,292 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:50:40,308 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:50:50,300 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:50:50,317 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:51:00,313 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-20 23:51:00,313 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:51:00,336 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-20 23:51:00,336 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:51:15,333 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:51:15,365 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:51:25,355 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:51:25,383 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:51:35,378 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:51:35,394 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:52:00,415 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-20 23:52:00,431 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-20 23:52:20,155 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:52:20,155 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:52:20,155 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:52:20,155 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:52:20,454 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:52:20,454 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:52:20,454 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:52:20,454 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:52:20,454 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:52:20,454 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:52:25,464 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:52:25,464 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:52:25,464 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:52:25,464 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:52:35,485 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:52:35,485 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:52:35,485 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:52:35,485 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:52:45,507 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:52:45,508 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:52:45,508 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:52:45,508 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:52:50,522 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-20 23:52:50,522 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-20 23:52:50,522 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-20 23:52:50,522 - Consumer_han_0 - WARNING - RePut Message : data/TQDN_1\page_1.png
+2024-12-20 23:52:50,522 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_3.png
+2024-12-20 23:52:50,522 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_2.png
+2024-12-20 23:52:50,522 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-20 23:52:50,523 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-20 23:52:50,523 - Consumer_han_3 - WARNING - RePut Message : data/TQDN_1\page_4.png
+2024-12-20 23:52:50,523 - Consumer_han_3 - DEBUG - Consumer_han_3 Process Error ....
+2024-12-20 23:52:55,523 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:52:55,523 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:52:55,523 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:52:55,527 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:53:05,537 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:53:05,537 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:53:05,537 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:53:05,537 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:53:15,555 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:53:15,555 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:53:15,555 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:53:15,555 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:53:20,564 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_6.png
+2024-12-20 23:53:20,564 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_5.png
+2024-12-20 23:53:20,564 - Consumer_han_0 - WARNING - RePut Message : data/TQDN_1\page_5.png
+2024-12-20 23:53:20,564 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_6.png
+2024-12-20 23:53:20,564 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-20 23:53:20,564 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-20 23:53:25,569 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:53:25,569 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:53:35,577 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:53:35,577 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:53:45,585 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:53:45,586 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-20 23:53:45,585 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:53:45,586 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-20 23:53:55,605 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-20 23:53:55,605 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-20 23:54:00,616 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:54:00,616 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:54:10,620 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:54:10,620 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:54:20,630 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:54:20,630 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:54:45,654 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-20 23:54:45,655 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-20 23:55:24,301 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:55:24,302 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:55:24,302 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:55:24,302 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:55:24,606 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:55:24,606 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:55:24,610 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:55:24,610 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:55:24,611 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:55:24,611 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:55:29,616 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:55:29,616 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:55:29,616 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:55:29,616 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:55:39,628 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:55:39,627 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:55:39,627 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:55:39,628 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:55:49,647 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:55:49,647 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:55:49,647 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:55:49,647 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:55:54,652 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-20 23:55:54,652 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-20 23:55:54,652 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-20 23:55:54,653 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_2.png
+2024-12-20 23:55:54,652 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-20 23:55:54,653 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_3.png
+2024-12-20 23:55:54,654 - Consumer_han_3 - WARNING - RePut Message : data/TQDN_1\page_4.png
+2024-12-20 23:55:54,653 - Consumer_han_0 - WARNING - RePut Message : data/TQDN_1\page_1.png
+2024-12-20 23:55:54,655 - Consumer_han_3 - DEBUG - Consumer_han_3 Process Error ....
+2024-12-20 23:55:54,656 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-20 23:55:59,669 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:55:59,668 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:55:59,669 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:55:59,669 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:56:09,686 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:56:09,686 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:56:09,686 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:56:09,686 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:56:19,710 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:56:19,710 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:56:19,710 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:56:19,710 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:56:24,720 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_5.png
+2024-12-20 23:56:24,720 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_6.png
+2024-12-20 23:56:24,720 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_5.png
+2024-12-20 23:56:24,720 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_6.png
+2024-12-20 23:56:24,720 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-20 23:56:24,720 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-20 23:56:29,726 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:56:29,726 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:56:39,745 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:56:39,745 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:56:49,736 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-20 23:56:49,736 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-20 23:56:49,752 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:56:49,752 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:56:59,757 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-20 23:56:59,757 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-20 23:57:04,771 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:57:04,771 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:57:14,794 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:57:14,794 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:57:24,811 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-20 23:57:24,811 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-20 23:57:49,856 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-20 23:57:49,856 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-20 23:59:34,463 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-20 23:59:34,463 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-20 23:59:34,463 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-20 23:59:34,463 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-20 23:59:34,772 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-20 23:59:34,772 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-20 23:59:34,772 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-20 23:59:34,772 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-20 23:59:34,774 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-20 23:59:34,774 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-20 23:59:39,775 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:59:39,775 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:59:39,775 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:59:39,775 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:59:49,788 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:59:49,788 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-20 23:59:49,788 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-20 23:59:49,788 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:59:59,803 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-20 23:59:59,803 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-20 23:59:59,804 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-21 00:00:04,809 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-21 00:00:04,809 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-21 00:00:04,809 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-21 00:00:04,809 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-21 00:00:04,809 - Consumer_han_0 - WARNING - RePut Message : data/TQDN_1\page_1.png
+2024-12-21 00:00:04,812 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_2.png
+2024-12-21 00:00:04,812 - Consumer_han_3 - WARNING - RePut Message : data/TQDN_1\page_4.png
+2024-12-21 00:00:04,809 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_3.png
+2024-12-21 00:00:04,816 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 00:00:04,812 - Consumer_han_3 - DEBUG - Consumer_han_3 Process Error ....
+2024-12-21 00:00:09,826 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:00:09,826 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:00:09,826 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:00:09,826 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:00:19,855 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:00:19,855 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:00:19,855 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:00:19,855 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:00:29,879 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:00:29,879 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:00:29,879 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:00:29,879 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:00:34,894 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_5.png
+2024-12-21 00:00:34,894 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_4.png
+2024-12-21 00:00:34,894 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_6.png
+2024-12-21 00:00:34,893 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_3.png
+2024-12-21 00:00:34,896 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_6.png
+2024-12-21 00:00:34,895 - Consumer_han_0 - WARNING - RePut Message : data/TQDN_1\page_5.png
+2024-12-21 00:00:34,897 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 00:00:34,897 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-21 00:00:39,907 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-21 00:00:39,907 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:00:49,914 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:00:49,915 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-21 00:00:59,926 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:00:59,926 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-21 00:00:59,926 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:00:59,926 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:01:04,933 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_2.png
+2024-12-21 00:01:04,933 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 00:01:09,934 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-21 00:01:09,934 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 00:01:14,938 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:01:14,938 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:01:24,950 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:01:24,950 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:01:34,966 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:01:34,966 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:01:39,971 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_5.png
+2024-12-21 00:01:39,971 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_6.png
+2024-12-21 00:02:00,003 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:02:00,019 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:03:45,173 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:03:45,173 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:03:45,173 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:03:45,173 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:03:45,485 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:03:45,485 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:03:45,485 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:03:45,485 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:03:45,488 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:03:45,488 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:03:50,501 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:03:50,501 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:03:50,501 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-21 00:03:50,501 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:03:50,501 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_3.png
+2024-12-21 00:03:55,512 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-21 00:03:55,512 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:03:55,512 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-21 00:03:55,512 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-21 00:03:55,512 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_2.png
+2024-12-21 00:03:55,512 - Consumer_han_0 - WARNING - RePut Message : data/TQDN_1\page_1.png
+2024-12-21 00:03:55,512 - Consumer_han_3 - WARNING - RePut Message : data/TQDN_1\page_4.png
+2024-12-21 00:03:55,512 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-21 00:03:55,512 - Consumer_han_3 - DEBUG - Consumer_han_3 Process Error ....
+2024-12-21 00:04:00,529 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_5.png
+2024-12-21 00:04:00,529 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:04:00,530 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_1.png
+2024-12-21 00:04:00,530 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_5.png
+2024-12-21 00:04:00,529 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:04:00,530 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_4.png
+2024-12-21 00:04:00,530 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_6.png
+2024-12-21 00:04:00,530 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 00:04:00,536 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 00:04:05,549 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 00:04:05,549 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:04:05,549 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:04:05,551 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_5.png
+2024-12-21 00:04:10,554 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_2.png
+2024-12-21 00:04:25,576 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:04:30,587 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:04:30,587 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:04:35,597 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:07:09,990 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:07:09,990 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:07:09,993 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:07:09,993 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:07:10,302 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:07:10,302 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:07:10,302 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:07:10,302 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:07:10,302 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:07:10,304 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:07:15,307 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:07:15,307 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:07:15,307 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:07:15,307 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_3.png
+2024-12-21 00:07:15,307 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:07:15,313 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 00:07:20,323 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:07:20,323 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:07:25,329 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:07:25,329 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:07:30,333 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:07:30,333 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:07:30,333 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_5.png
+2024-12-21 00:07:30,333 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_6.png
+2024-12-21 00:07:35,343 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:07:35,343 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:07:40,347 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-21 00:07:40,347 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-21 00:07:40,349 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_2.png
+2024-12-21 00:07:40,348 - Consumer_han_3 - WARNING - RePut Message : data/TQDN_1\page_4.png
+2024-12-21 00:07:40,350 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 00:07:40,350 - Consumer_han_3 - DEBUG - Consumer_han_3 Process Error ....
+2024-12-21 00:07:45,363 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:07:45,363 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:07:45,365 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_2.png
+2024-12-21 00:07:55,368 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:07:55,368 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:07:55,368 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:08:24,733 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:08:24,733 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:08:24,736 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:08:24,736 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:08:25,050 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:08:25,050 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:08:25,050 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:08:25,050 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:08:25,050 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:08:25,050 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:08:30,056 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:08:30,056 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:08:30,057 - Consumer_han_3 - ERROR - Consumer_han_3 Retry OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:08:30,057 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:08:30,058 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 00:08:35,068 - Consumer_han_0 - ERROR - Consumer_han_0 Retry OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:08:40,070 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:08:40,069 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:08:40,071 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_4.png
+2024-12-21 00:08:40,070 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:08:45,081 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:08:45,081 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:08:45,081 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_5.png
+2024-12-21 00:08:45,081 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_6.png
+2024-12-21 00:08:50,096 - Consumer_han_1 - ERROR - Consumer_han_1 Retry OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:08:50,096 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:08:55,099 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-21 00:08:55,100 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-21 00:08:55,100 - Consumer_han_1 - WARNING - RePut Message : data/TQDN_1\page_2.png
+2024-12-21 00:08:55,100 - Consumer_han_2 - WARNING - RePut Message : data/TQDN_1\page_3.png
+2024-12-21 00:08:55,100 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 00:08:55,100 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 00:09:00,112 - Consumer_han_2 - ERROR - Consumer_han_2 Retry OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:09:00,114 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:09:00,114 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_2.png
+2024-12-21 00:09:10,119 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:09:10,119 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:09:10,119 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:09:10,121 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_3.png
+2024-12-21 00:09:25,151 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:09:35,169 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:12:13,558 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:12:13,558 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:12:13,558 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:12:13,558 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:12:13,866 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:12:13,870 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:12:13,870 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:12:13,871 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:12:13,871 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:12:13,871 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:12:18,871 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:12:18,871 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 00:12:18,887 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API : data/TQDN_1\page_4.png
+2024-12-21 00:12:18,887 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:12:18,887 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:12:23,879 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:12:23,880 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_5.png
+2024-12-21 00:12:28,884 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API : data/TQDN_1\page_6.png
+2024-12-21 00:12:28,893 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:12:28,893 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:12:28,893 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_2.png
+2024-12-21 00:12:28,893 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:12:28,894 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_4.png
+2024-12-21 00:12:38,890 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:12:38,891 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_6.png
+2024-12-21 00:12:38,906 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:12:43,922 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-21 00:12:43,923 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1\page_3.png
+2024-12-21 00:12:43,923 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 00:12:48,932 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:12:48,932 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_3.png
+2024-12-21 00:12:53,936 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:12:53,936 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:13:03,920 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:13:13,970 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:13:56,642 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:13:56,642 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:13:56,642 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:13:56,642 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:13:56,962 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:13:56,962 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:13:56,962 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:13:56,962 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:13:56,962 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:13:56,962 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:14:01,974 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:14:01,974 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:14:01,974 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:14:01,974 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:14:01,974 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_4.png
+2024-12-21 00:14:01,974 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 00:14:06,989 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:14:06,989 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:14:06,989 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_6.png
+2024-12-21 00:14:11,993 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API : data/TQDN_1\page_2.png
+2024-12-21 00:14:11,993 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:14:16,996 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API : data/TQDN_1\page_5.png
+2024-12-21 00:14:21,998 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API : data/TQDN_1\page_3.png
+2024-12-21 00:14:21,998 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:14:21,998 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_2.png
+2024-12-21 00:14:27,004 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-21 00:14:27,004 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:14:27,004 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1\page_3.png
+2024-12-21 00:14:27,004 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_5.png
+2024-12-21 00:14:27,004 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 00:14:32,008 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:14:32,008 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:14:32,008 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_3.png
+2024-12-21 00:14:47,014 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:14:52,026 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:14:57,027 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:15:06,952 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:15:06,956 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:15:06,956 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:15:06,956 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:15:07,259 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:15:07,259 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:15:07,259 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:15:07,259 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:15:07,262 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:15:07,262 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:15:12,276 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1\page_3.png
+2024-12-21 00:15:12,278 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1\page_2.png
+2024-12-21 00:15:12,276 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:15:12,278 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1\page_1.png
+2024-12-21 00:15:12,280 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_4.png
+2024-12-21 00:15:17,296 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 1 : data/TQDN_1\page_5.png
+2024-12-21 00:15:22,290 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1\page_3.png
+2024-12-21 00:15:22,290 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:15:22,290 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_2.png
+2024-12-21 00:15:22,306 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:15:22,306 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 00:15:27,302 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:15:27,302 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_6.png
+2024-12-21 00:15:27,317 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 2 : data/TQDN_1\page_5.png
+2024-12-21 00:15:32,307 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:15:32,307 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_3.png
+2024-12-21 00:15:37,329 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 3 : data/TQDN_1\page_5.png
+2024-12-21 00:15:42,332 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_5.png
+2024-12-21 00:15:42,333 - Consumer_han_3 - WARNING - PUT RETRY Message : data/TQDN_1\page_5.png
+2024-12-21 00:15:42,333 - Consumer_han_3 - DEBUG - Consumer_han_3 Process Error ....
+2024-12-21 00:15:47,335 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:15:47,347 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:15:47,347 - Consumer_han_3 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_5.png
+2024-12-21 00:15:52,320 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:15:57,326 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:16:12,390 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:17:47,774 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:17:47,774 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:17:47,774 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:17:47,774 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:17:48,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:17:48,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:17:48,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:17:48,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:17:48,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:17:48,084 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:17:53,090 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 1 : data/TQDN_1\page_4.png
+2024-12-21 00:17:53,090 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:17:53,090 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1\page_3.png
+2024-12-21 00:17:53,090 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:17:58,106 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:17:58,107 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1\page_5.png
+2024-12-21 00:18:03,111 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:18:03,111 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1\page_3.png
+2024-12-21 00:18:08,111 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:18:13,124 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 3 : data/TQDN_1\page_3.png
+2024-12-21 00:18:18,134 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-21 00:18:18,134 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1\page_3.png
+2024-12-21 00:18:18,134 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 00:18:23,139 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1\page_3.png
+2024-12-21 00:18:23,139 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:18:28,140 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:18:33,154 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1\page_3.png
+2024-12-21 00:18:33,154 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:18:43,175 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:19:08,199 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:19:12,384 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:19:12,384 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:19:12,384 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:19:12,393 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:19:12,699 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:19:12,699 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:19:12,699 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:19:12,703 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:19:12,703 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:19:12,703 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:19:17,705 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:19:17,706 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1\page_2.png
+2024-12-21 00:19:17,706 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1\page_1.png
+2024-12-21 00:19:17,705 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1\page_3.png
+2024-12-21 00:19:22,707 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:19:27,725 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1\page_1.png
+2024-12-21 00:19:27,724 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1\page_3.png
+2024-12-21 00:19:27,725 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 1 : data/TQDN_1\page_6.png
+2024-12-21 00:19:27,725 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1\page_2.png
+2024-12-21 00:19:37,738 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1\page_1.png
+2024-12-21 00:19:37,738 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 3 : data/TQDN_1\page_3.png
+2024-12-21 00:19:37,739 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 2 : data/TQDN_1\page_6.png
+2024-12-21 00:19:37,738 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 3 : data/TQDN_1\page_2.png
+2024-12-21 00:19:42,751 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_2.png
+2024-12-21 00:19:42,751 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1\page_3.png
+2024-12-21 00:19:42,751 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1\page_2.png
+2024-12-21 00:19:42,751 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1\page_3.png
+2024-12-21 00:19:42,751 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-21 00:19:42,754 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 00:19:42,754 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1\page_1.png
+2024-12-21 00:19:42,754 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 00:19:42,754 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-21 00:19:47,756 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1\page_3.png
+2024-12-21 00:19:47,756 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1\page_2.png
+2024-12-21 00:19:47,756 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:19:47,774 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:19:57,768 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:19:57,768 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:20:12,776 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:20:12,792 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:20:22,781 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 00:20:22,782 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:21:31,549 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 00:21:31,549 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 00:21:31,549 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 00:21:31,549 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 00:21:31,857 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 00:21:31,857 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 00:21:31,857 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 00:21:31,857 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 00:21:31,857 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 00:21:31,857 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 00:21:36,879 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 00:21:36,880 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 00:21:36,880 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 1 : data/TQDN_1\page_4.png
+2024-12-21 00:21:36,880 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 00:21:41,889 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1\page_6.png
+2024-12-21 00:21:41,890 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 00:21:46,903 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 00:21:51,908 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1\page_6.png
+2024-12-21 00:22:01,925 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 3 : data/TQDN_1\page_6.png
+2024-12-21 00:22:01,925 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 00:22:06,935 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 00:22:06,935 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1\page_6.png
+2024-12-21 00:22:06,935 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1\page_6.png
+2024-12-21 00:22:06,935 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 00:22:11,940 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 00:22:11,942 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 00:22:36,982 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 10:21:11,314 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 10:21:11,607 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 10:21:11,607 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 10:21:11,607 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 10:21:11,607 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 10:21:11,607 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 10:21:11,607 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 10:21:16,612 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 10:21:16,613 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 10:21:16,613 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 10:21:16,613 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_1.png
+2024-12-21 10:21:21,614 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1\page_5.png
+2024-12-21 10:21:21,614 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 10:21:31,633 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1\page_5.png
+2024-12-21 10:21:41,649 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 10:21:41,649 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 10:21:41,649 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 10:21:46,655 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 10:22:06,668 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 10:55:48,551 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 10:55:48,552 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 10:55:48,552 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 10:55:48,553 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 10:55:48,870 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_1.png
+2024-12-21 10:55:48,886 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_2.png
+2024-12-21 10:55:48,886 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_3.png
+2024-12-21 10:55:48,886 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_4.png
+2024-12-21 10:55:48,886 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_5.png
+2024-12-21 10:55:48,886 - Producer_1 - INFO - Produce HAN message: data/TQDN_1\page_6.png
+2024-12-21 10:55:53,892 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 1 : data/TQDN_1\page_4.png
+2024-12-21 10:55:53,892 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1\page_1.png
+2024-12-21 10:55:53,892 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1\page_2.png
+2024-12-21 10:55:53,892 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_3.png
+2024-12-21 10:55:58,896 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1\page_5.png
+2024-12-21 10:56:03,898 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1\page_1.png
+2024-12-21 10:56:03,898 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1\page_2.png
+2024-12-21 10:56:03,898 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 2 : data/TQDN_1\page_4.png
+2024-12-21 10:56:08,910 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1\page_5.png
+2024-12-21 10:56:13,912 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1\page_1.png
+2024-12-21 10:56:13,912 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 3 : data/TQDN_1\page_4.png
+2024-12-21 10:56:13,912 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_2.png
+2024-12-21 10:56:18,927 - Consumer_han_3 - ERROR - Process Error: data/TQDN_1\page_4.png
+2024-12-21 10:56:18,927 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1\page_1.png
+2024-12-21 10:56:18,928 - Consumer_han_3 - WARNING - PUT RETRY Message : data/TQDN_1\page_4.png
+2024-12-21 10:56:18,927 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1\page_6.png
+2024-12-21 10:56:18,927 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1\page_5.png
+2024-12-21 10:56:18,928 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1\page_1.png
+2024-12-21 10:56:18,928 - Consumer_han_3 - DEBUG - Consumer_han_3 Process Error ....
+2024-12-21 10:56:18,929 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-21 10:56:23,930 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1\page_1.png
+2024-12-21 10:56:23,930 - Consumer_han_3 - ERROR - Consumer_han_3 RETRY OCR API 1 : data/TQDN_1\page_4.png
+2024-12-21 10:56:28,939 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1\page_6.png
+2024-12-21 10:56:33,946 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1\page_1.png
+2024-12-21 10:56:33,946 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1\page_4.png
+2024-12-21 10:56:43,966 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1\page_1.png
+2024-12-21 10:56:43,966 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 10:56:48,973 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1\page_1.png
+2024-12-21 10:56:53,973 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 10:56:58,983 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 10:57:14,009 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 12:50:12,965 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 12:50:12,965 - Consumer_nom_2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-21 12:50:12,965 - Consumer_nom_1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-21 12:50:12,965 - Consumer_nom_0 - ERROR - Consumer_nom_0 Error: File not found: data/TQDN_1/page_0.png
+2024-12-21 12:51:03,398 - Consumer_nom_1 - ERROR - Consumer_nom_1 Error: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:51:03,618 - Consumer_nom_2 - ERROR - Consumer_nom_2 Error: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:55:30,108 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 12:55:30,108 - Consumer_nom_1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-21 12:55:30,123 - Consumer_nom_2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-21 12:55:30,123 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 12:55:30,123 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 12:55:30,123 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 12:55:30,123 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 12:55:30,123 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 12:56:20,925 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:56:21,673 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:56:23,528 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:56:23,936 - Consumer_nom_2 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 12:56:23,937 - Consumer_nom_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 12:56:24,193 - Consumer_nom_2 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 12:56:24,193 - Consumer_nom_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 12:56:24,393 - Consumer_nom_2 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 12:56:24,393 - Consumer_nom_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 12:56:24,393 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Error ....
+2024-12-21 12:56:24,691 - Consumer_nom_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 12:56:29,703 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Error ....
+2024-12-21 12:57:12,923 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:57:15,981 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:57:20,737 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 12:57:21,100 - Consumer_nom_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 12:57:26,103 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Error ....
+2024-12-21 13:01:52,198 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 13:01:52,198 - Consumer_nom_1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-21 13:01:52,198 - Consumer_nom_2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-21 13:01:52,198 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:01:52,198 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:01:52,198 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:01:52,198 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 13:01:52,198 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 13:02:42,883 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:02:42,961 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:02:43,196 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:02:43,508 - Consumer_nom_2 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 13:02:43,508 - Consumer_nom_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 13:02:43,696 - Consumer_nom_2 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 13:02:43,696 - Consumer_nom_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 13:02:43,931 - Consumer_nom_2 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 13:02:43,931 - Consumer_nom_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 13:02:43,931 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Error ....
+2024-12-21 13:02:44,134 - Consumer_nom_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 13:02:49,152 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Error ....
+2024-12-21 13:02:49,402 - Consumer_nom_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 13:02:54,419 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Error ....
+2024-12-21 13:03:33,327 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:03:33,483 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:03:44,534 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:04:23,832 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:04:23,832 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 13:04:23,832 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 13:04:23,832 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:04:23,832 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:04:23,832 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:04:23,832 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:04:23,848 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_0.png
+2024-12-21 13:04:23,895 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:04:23,895 - Consumer_nom_1 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 13:04:23,895 - Consumer_nom_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 13:04:23,895 - Consumer_nom_1 - DEBUG - Consumer_nom_1 Process Error ....
+2024-12-21 13:04:28,850 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:04:34,773 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:05:14,137 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:05:19,388 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:05:25,093 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:05:25,093 - Consumer_nom_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_5.png
+2024-12-21 13:05:40,135 - Consumer_nom_2 - INFO - Consumer_nom_2 Stop Working ....
+2024-12-21 13:06:04,637 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:06:09,857 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:06:57,937 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:06:57,937 - Consumer_nom_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 13:07:03,128 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:07:03,128 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 13:07:22,947 - Consumer_nom_1 - INFO - Consumer_nom_1 Stop Working ....
+2024-12-21 13:07:23,150 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-21 13:08:56,691 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 13:08:56,691 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:08:56,691 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:08:56,691 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:08:56,691 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 13:08:56,691 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 13:09:46,952 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:10:38,363 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:11:28,673 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:11:28,673 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 13:11:28,673 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 13:12:18,929 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:13:09,258 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:14:00,546 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:14:00,546 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 13:14:00,546 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 13:14:50,790 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:15:41,212 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:16:32,731 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:16:32,746 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 13:16:32,746 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 13:17:23,165 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:18:13,575 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:19:04,446 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:19:04,446 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 13:19:04,446 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 13:19:55,817 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 13:19:56,258 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 13:19:56,258 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 13:19:56,258 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:19:56,261 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:19:56,261 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:19:56,261 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:19:56,261 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_0.png
+2024-12-21 13:20:01,275 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:20:01,728 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 13:20:06,752 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:20:07,195 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 13:20:12,212 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:20:12,666 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 13:20:17,676 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:20:18,104 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 13:20:23,128 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-21 13:22:15,188 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 13:22:15,188 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:22:15,188 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:22:15,202 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:22:15,202 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 13:22:15,202 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 13:22:15,674 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 13:22:15,674 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 13:22:16,409 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 13:22:16,409 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 13:22:17,006 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 13:22:17,006 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 13:22:17,444 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 13:22:17,444 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 13:22:19,842 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 13:22:19,842 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 13:22:19,842 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:22:19,842 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:22:19,842 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:22:19,842 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:22:19,842 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_0.png
+2024-12-21 13:22:24,847 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:22:25,175 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 13:22:30,189 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:22:30,439 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 13:22:35,446 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:22:35,985 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 13:22:40,992 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:22:41,475 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 13:22:46,485 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-21 13:23:07,517 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 13:23:07,517 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:23:07,520 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:23:07,520 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:23:07,520 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 13:23:07,520 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 13:23:07,520 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_0.png
+2024-12-21 13:23:07,806 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 13:23:07,806 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 13:23:07,806 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_1.png
+2024-12-21 13:23:07,995 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 13:23:07,995 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 13:23:07,995 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_2.png
+2024-12-21 13:23:08,716 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 13:23:08,716 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 13:23:08,716 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_3.png
+2024-12-21 13:23:08,999 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 13:23:08,999 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 13:23:08,999 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_4.png
+2024-12-21 13:23:09,502 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 13:23:09,502 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 13:23:09,502 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_5.png
+2024-12-21 13:23:09,502 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:23:09,502 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:23:09,502 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:23:09,502 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:23:09,502 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_0.png
+2024-12-21 13:23:14,515 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:23:14,825 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 13:23:19,827 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:23:20,377 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 13:23:25,379 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:23:25,758 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 13:23:30,772 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:23:31,210 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 13:23:36,214 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-21 13:37:40,850 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 13:37:40,851 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:37:40,851 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:37:40,852 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:37:40,852 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 13:37:40,853 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 13:37:40,853 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_0.png
+2024-12-21 13:37:41,168 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 13:37:41,168 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 13:37:41,168 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_1.png
+2024-12-21 13:37:41,364 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 13:37:41,364 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 13:37:41,364 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_2.png
+2024-12-21 13:37:41,552 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 13:37:41,552 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 13:37:41,552 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_3.png
+2024-12-21 13:37:41,743 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 13:37:41,743 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 13:37:41,743 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_4.png
+2024-12-21 13:37:41,942 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 13:37:41,942 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 13:37:41,942 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_5.png
+2024-12-21 13:37:41,942 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:37:41,943 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:37:41,943 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:37:41,943 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 13:37:41,943 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_0.png
+2024-12-21 13:37:46,945 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:37:47,133 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 13:37:52,138 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:37:52,604 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 13:37:57,605 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:37:58,033 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 13:38:03,044 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 13:38:03,453 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 13:38:08,457 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-21 14:14:16,421 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 14:14:16,422 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:14:16,422 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:14:16,422 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:14:16,423 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 14:14:16,423 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 14:14:16,423 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_0.png
+2024-12-21 14:16:20,379 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-21 14:16:20,380 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_1.png
+2024-12-21 14:17:16,802 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-21 14:17:16,803 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_2.png
+2024-12-21 14:18:06,775 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-21 14:18:06,775 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_3.png
+2024-12-21 14:19:01,353 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-21 14:19:01,353 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_4.png
+2024-12-21 14:19:54,724 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-21 14:19:54,725 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_5.png
+2024-12-21 14:19:54,725 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 14:19:54,725 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:19:54,726 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:19:54,726 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:19:54,726 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_0.png
+2024-12-21 14:20:19,771 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-21 14:46:49,349 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 14:46:49,350 - Consumer_nom_1 - INFO - Consumer_nom_1 Start Working ....
+2024-12-21 14:46:49,351 - Consumer_nom_2 - INFO - Consumer_nom_2 Start Working ....
+2024-12-21 14:46:49,352 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:46:49,353 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:46:49,354 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:46:49,354 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_0.png
+2024-12-21 14:46:49,354 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_0.png
+2024-12-21 14:46:49,354 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_0.png
+2024-12-21 14:47:34,126 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-21 14:47:34,127 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_3.png
+2024-12-21 14:47:54,088 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:48:19,174 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:48:27,059 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:48:56,464 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:49:14,572 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:49:24,709 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:50:01,883 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:50:01,884 - Consumer_nom_1 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 14:50:01,885 - Consumer_nom_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 14:50:01,886 - Consumer_nom_1 - DEBUG - Consumer_nom_1 Process Message Success: data/TQDN_1/page_1.png
+2024-12-21 14:50:10,586 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:50:10,586 - Consumer_nom_2 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 14:50:10,587 - Consumer_nom_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 14:50:10,587 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Message Success: data/TQDN_1/page_2.png
+2024-12-21 14:50:10,587 - Consumer_nom_2 - DEBUG - Consumer_nom_2 Process Error ....
+2024-12-21 14:50:19,932 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:50:19,933 - Consumer_nom_0 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 14:50:19,934 - Consumer_nom_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 14:50:19,934 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Message Success: data/TQDN_1/page_4.png
+2024-12-21 14:50:19,935 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 14:50:19,936 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:50:19,937 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:50:19,938 - Consumer_nom_0 - ERROR - Error OCR API: File not found: data/TQDN_1/page_0.png
+2024-12-21 14:50:19,938 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_0.png
+2024-12-21 14:50:24,953 - Consumer_nom_0 - DEBUG - Consumer_nom_0 Process Error ....
+2024-12-21 14:51:13,256 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:51:18,804 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:51:20,424 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:52:16,436 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:52:17,360 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:52:23,606 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:53:16,165 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:53:16,165 - Consumer_nom_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 14:53:16,868 - Consumer_nom_2 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:53:16,868 - Consumer_nom_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 14:53:21,599 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:53:21,599 - Consumer_nom_1 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 14:53:21,600 - Consumer_nom_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 14:53:21,600 - Consumer_nom_1 - DEBUG - Consumer_nom_1 Process Message Success: data/TQDN_1/page_5.png
+2024-12-21 14:53:21,601 - Consumer_nom_1 - DEBUG - Consumer_nom_1 Process Error ....
+2024-12-21 14:53:36,203 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-21 14:53:41,898 - Consumer_nom_2 - INFO - Consumer_nom_2 Stop Working ....
+2024-12-21 14:54:15,648 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:55:16,656 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:56:21,283 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:56:21,283 - Consumer_nom_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 14:56:26,294 - Consumer_nom_1 - DEBUG - Consumer_nom_1 Process Error ....
+2024-12-21 14:57:21,902 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:58:17,314 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:59:21,820 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 14:59:21,820 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 14:59:21,820 - Consumer_han_0 - ERROR - Consumer_han_0 Error: 'NoneType' object has no attribute 'status'
+2024-12-21 14:59:21,822 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,824 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,825 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,826 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 14:59:21,826 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 14:59:21,827 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,829 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,831 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,831 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 14:59:21,831 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 14:59:21,832 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,834 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,836 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,836 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 14:59:21,837 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 14:59:21,838 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,840 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,842 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,842 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 14:59:21,842 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 14:59:21,843 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,844 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,845 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,846 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 14:59:21,846 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 14:59:21,846 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 14:59:21,848 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,849 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,851 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:21,851 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 14:59:26,853 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 14:59:26,855 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:26,856 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:26,858 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:26,859 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 14:59:29,086 - Consumer_nom_1 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 14:59:29,087 - Consumer_nom_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_5.png
+2024-12-21 14:59:31,870 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 14:59:31,876 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:31,880 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:31,883 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:31,883 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 14:59:36,891 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 14:59:36,893 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:36,895 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:36,898 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:36,898 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 14:59:41,909 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 14:59:41,912 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:41,916 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:41,919 - Consumer_han_1 - ERROR - Error OCR API: 'ApiRequest' object has no attribute 'position'
+2024-12-21 14:59:41,920 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_5.png
+2024-12-21 14:59:46,927 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 14:59:49,124 - Consumer_nom_1 - INFO - Consumer_nom_1 Stop Working ....
+2024-12-21 15:01:34,425 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:01:34,425 - Consumer_han_0 - ERROR - Consumer_han_0 Error: 'NoneType' object has no attribute 'status'
+2024-12-21 15:01:34,425 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:02:08,542 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:02:25,313 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:02:34,845 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:02:34,850 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 15:02:34,850 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 15:02:46,516 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:02:59,617 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:03:05,762 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:03:05,764 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 15:03:05,765 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 15:03:14,157 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:03:26,550 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:03:46,210 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:03:46,211 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 15:03:46,211 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 15:04:01,364 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:04:13,962 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:04:17,858 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:04:17,860 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 15:04:17,861 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 15:05:48,708 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:05:48,710 - Consumer_han_0 - ERROR - Consumer_han_0 Error: 'NoneType' object has no attribute 'status'
+2024-12-21 15:05:48,709 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:05:58,856 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:08,264 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:12,673 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:12,674 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 15:06:12,674 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 15:06:16,326 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:20,443 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:24,453 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:24,455 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 15:06:24,455 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 15:06:38,491 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:42,254 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:45,921 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:06:45,922 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 15:06:45,922 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 15:07:00,279 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:03,891 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:08,476 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:08,477 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 15:07:08,477 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 15:07:17,080 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:26,884 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:33,140 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:33,143 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 15:07:33,145 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 15:07:33,146 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 15:07:38,866 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:43,474 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:47,100 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:07:47,101 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 15:07:52,110 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 15:07:56,478 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:08:05,182 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:08:12,873 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:08:12,874 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 15:08:17,886 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 15:08:22,078 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:08:33,138 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:08:47,508 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:08:47,510 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 15:08:52,519 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 15:08:56,281 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:09:03,568 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:09:07,647 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:09:07,647 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_4.png
+2024-12-21 15:09:12,652 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 15:09:16,658 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:09:24,056 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:09:27,718 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:09:27,719 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_5.png
+2024-12-21 15:09:32,733 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 15:09:57,737 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:09:57,737 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:09:57,738 - Consumer_han_0 - ERROR - Consumer_han_0 Error: 'NoneType' object has no attribute 'status'
+2024-12-21 15:10:08,268 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:10:12,816 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:10:19,968 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:10:19,968 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 15:10:19,969 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 15:10:32,565 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:10:45,156 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:10:49,024 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:10:49,027 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 15:10:49,028 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 15:11:06,637 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:11:19,745 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:11:31,633 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:11:31,635 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 15:11:31,635 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 15:11:35,825 - Consumer_han_1 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:13:27,524 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:14:09,726 - Consumer_han_0 - ERROR - Consumer_han_0 Error: 'NoneType' object has no attribute 'status'
+2024-12-21 15:14:39,308 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:14:44,777 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:14:49,052 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:14:56,116 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:14:56,117 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 15:14:56,118 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 15:14:59,908 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:15:15,499 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:18:16,047 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:18:30,267 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:25:36,766 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:25:52,407 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:26:13,398 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 15:26:23,830 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:26:37,179 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:28:44,499 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:29:53,306 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-21 15:32:46,737 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:34:52,892 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:34:59,342 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-21 15:35:10,813 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1/page_1.png
+2024-12-21 15:36:04,691 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:36:04,691 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:36:04,691 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 15:36:17,272 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-21 15:36:17,276 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1/page_3.png
+2024-12-21 15:36:22,183 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1/page_2.png
+2024-12-21 15:36:28,226 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1/page_3.png
+2024-12-21 15:36:28,337 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1/page_1.png
+2024-12-21 15:36:34,062 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1/page_2.png
+2024-12-21 15:36:48,217 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 3 : data/TQDN_1/page_2.png
+2024-12-21 15:36:48,217 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1/page_1.png
+2024-12-21 15:36:49,521 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 3 : data/TQDN_1/page_3.png
+2024-12-21 15:36:53,233 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 15:36:53,233 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 15:36:53,234 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 15:36:53,235 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 15:36:54,527 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 15:36:54,527 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 15:36:58,425 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1/page_4.png
+2024-12-21 15:37:00,908 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1/page_6.png
+2024-12-21 15:37:01,200 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_5.png
+2024-12-21 15:37:09,202 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1/page_4.png
+2024-12-21 15:37:11,228 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1/page_5.png
+2024-12-21 15:37:11,745 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1/page_6.png
+2024-12-21 15:37:19,449 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 3 : data/TQDN_1/page_4.png
+2024-12-21 15:37:22,087 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1/page_5.png
+2024-12-21 15:37:23,112 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 3 : data/TQDN_1/page_6.png
+2024-12-21 15:37:24,459 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-21 15:37:24,460 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-21 15:37:24,461 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 15:37:27,094 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-21 15:37:27,095 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-21 15:37:27,096 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-21 15:37:28,120 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1/page_6.png
+2024-12-21 15:37:28,121 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_6.png
+2024-12-21 15:37:28,122 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 15:37:32,559 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-21 15:37:33,248 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1/page_3.png
+2024-12-21 15:37:45,661 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1/page_2.png
+2024-12-21 15:37:45,854 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1/page_3.png
+2024-12-21 15:37:50,259 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1/page_1.png
+2024-12-21 15:37:57,103 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 3 : data/TQDN_1/page_3.png
+2024-12-21 15:37:58,129 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1/page_2.png
+2024-12-21 15:38:01,923 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1/page_1.png
+2024-12-21 15:38:02,119 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_3.png
+2024-12-21 15:38:06,937 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_1.png
+2024-12-21 15:38:07,126 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-21 15:38:11,946 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-21 15:38:18,830 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 3 : data/TQDN_1/page_2.png
+2024-12-21 15:38:19,019 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1/page_6.png
+2024-12-21 15:38:23,834 - Consumer_han_1 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_2.png
+2024-12-21 15:38:25,894 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_5.png
+2024-12-21 15:38:28,839 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-21 15:38:37,266 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1/page_5.png
+2024-12-21 15:38:37,867 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1/page_6.png
+2024-12-21 15:38:46,161 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1/page_4.png
+2024-12-21 15:38:47,628 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1/page_5.png
+2024-12-21 15:38:49,026 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 3 : data/TQDN_1/page_6.png
+2024-12-21 15:38:52,633 - Consumer_han_0 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_5.png
+2024-12-21 15:38:54,037 - Consumer_han_2 - ERROR - PUT ERROR QUEUE OCR file: data/TQDN_1/page_6.png
+2024-12-21 15:38:57,338 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1/page_4.png
+2024-12-21 15:40:51,679 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:40:51,679 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:40:51,680 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 15:41:00,409 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-21 15:41:00,412 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-21 15:41:00,416 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-21 15:41:00,415 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 15:41:00,416 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1/page_3.png
+2024-12-21 15:41:00,417 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1/page_2.png
+2024-12-21 15:41:14,231 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-21 15:41:14,235 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 15:41:14,236 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1/page_1.png
+2024-12-21 15:41:14,237 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1/page_2.png
+2024-12-21 15:41:26,108 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 15:41:26,110 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 3 : data/TQDN_1/page_2.png
+2024-12-21 15:41:26,211 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-21 15:41:26,212 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 3 : data/TQDN_1/page_1.png
+2024-12-21 15:41:26,431 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-21 15:41:26,432 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 2 : data/TQDN_1/page_3.png
+2024-12-21 15:41:31,123 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 15:41:31,124 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 15:41:31,217 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 15:41:31,218 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 15:41:37,471 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_5.png
+2024-12-21 15:41:37,472 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_5.png
+2024-12-21 15:41:37,988 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_4.png
+2024-12-21 15:41:37,991 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1/page_4.png
+2024-12-21 15:41:40,756 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-21 15:41:40,757 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 3 : data/TQDN_1/page_3.png
+2024-12-21 15:41:45,765 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 15:41:45,766 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 15:41:48,858 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_5.png
+2024-12-21 15:41:48,858 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 2 : data/TQDN_1/page_5.png
+2024-12-21 15:41:50,577 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_4.png
+2024-12-21 15:41:50,578 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 2 : data/TQDN_1/page_4.png
+2024-12-21 15:41:56,928 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_6.png
+2024-12-21 15:41:56,929 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1/page_6.png
+2024-12-21 15:43:38,059 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:43:38,059 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:43:38,059 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 15:43:45,580 - Consumer_han_2 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:43:45,586 - Consumer_han_0 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:43:47,537 - Consumer_han_1 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:43:51,619 - Consumer_han_0 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:43:56,026 - Consumer_han_1 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:43:57,968 - Consumer_han_0 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:43:57,969 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 15:43:57,970 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 15:44:07,099 - Consumer_han_2 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:44:07,494 - Consumer_han_1 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:44:07,495 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-21 15:44:07,496 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-21 15:44:07,598 - Consumer_han_0 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:44:15,375 - Consumer_han_2 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:44:15,375 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-21 15:44:15,376 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-21 15:44:16,090 - Consumer_han_0 - ERROR - Error OCR API: 'int' object is not subscriptable
+2024-12-21 15:48:18,558 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 15:48:18,558 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:49:10,973 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 15:50:36,039 - Consumer_han_2 - ERROR - Consumer_han_2 RETRY OCR API 1 : data/TQDN_1/page_2.png
+2024-12-21 15:50:38,338 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-21 15:50:39,085 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : data/TQDN_1/page_3.png
+2024-12-21 15:50:39,103 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-21 15:53:31,390 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:53:31,392 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 15:53:31,391 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:53:42,348 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 15:53:48,893 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-21 15:54:15,685 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 15:54:15,686 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 15:54:15,686 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 15:54:24,258 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-21 15:54:24,258 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 15:54:24,259 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-21 15:54:24,259 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-21 15:54:27,940 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-21 15:54:27,942 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-21 15:54:29,989 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_4.png
+2024-12-21 15:54:29,991 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-21 15:54:31,319 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_5.png
+2024-12-21 15:54:31,321 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-21 15:54:35,530 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_6.png
+2024-12-21 15:54:35,532 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-21 15:54:55,042 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 15:54:56,359 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 15:55:00,556 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 16:00:48,234 - Consumer_nom_0 - INFO - Consumer_nom_0 Start Working ....
+2024-12-21 16:01:50,430 - Consumer_nom_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-21 16:01:50,433 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-21 16:02:55,835 - Consumer_nom_0 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 16:02:55,842 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-21 16:03:58,921 - Consumer_nom_0 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-21 16:03:58,923 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-21 16:04:53,923 - Consumer_nom_0 - INFO - OCR SUCCESS: data/TQDN_1/page_4.png
+2024-12-21 16:04:53,928 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-21 16:05:19,720 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 16:05:36,830 - Consumer_nom_0 - INFO - OCR SUCCESS: data/TQDN_1/page_5.png
+2024-12-21 16:05:36,831 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-21 16:05:37,857 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 16:05:44,605 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 16:05:50,038 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 16:05:50,039 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-21 16:05:50,039 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-21 16:05:54,745 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 16:06:03,458 - Consumer_han_0 - ERROR - Error OCR API: 'list' object has no attribute 'get'
+2024-12-21 16:06:40,020 - Consumer_nom_0 - ERROR - Error OCR API: 504 Server Error: Gateway Time-out for url: https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/image-ocr
+2024-12-21 16:06:57,359 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-21 16:06:57,359 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-21 16:06:57,360 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-21 16:06:57,360 - Consumer_han_3 - INFO - Consumer_han_3 Start Working ....
+2024-12-21 16:07:02,537 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-21 16:07:02,539 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-21 16:07:03,967 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-21 16:07:03,969 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-21 16:07:06,115 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-21 16:07:06,115 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-21 16:07:06,209 - Consumer_han_3 - INFO - OCR SUCCESS: data/TQDN_1/page_4.png
+2024-12-21 16:07:06,211 - Consumer_han_3 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-21 16:07:10,009 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_5.png
+2024-12-21 16:07:10,013 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_6.png
+2024-12-21 16:07:10,015 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-21 16:07:10,016 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-21 16:07:28,743 - Consumer_nom_0 - INFO - OCR SUCCESS: data/TQDN_1/page_6.png
+2024-12-21 16:07:28,746 - Consumer_nom_0 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-21 16:07:31,162 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-21 16:07:31,257 - Consumer_han_3 - INFO - Consumer_han_3 Stop Working ....
+2024-12-21 16:07:35,058 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-21 16:07:35,058 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-21 16:07:53,787 - Consumer_nom_0 - INFO - Consumer_nom_0 Stop Working ....
+2024-12-22 22:37:09,050 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 22:37:27,955 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 22:37:27,962 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 22:37:27,963 - Consumer_han_0 - ERROR - Error Putting Message: data/TQDN_1/page_1.png | write() argument must be str, not list
+2024-12-22 22:37:27,963 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-22 22:37:50,281 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 22:37:50,283 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 22:37:50,284 - Consumer_han_0 - ERROR - Error Putting Message: data/TQDN_1/page_1.png | write() argument must be str, not list
+2024-12-22 22:37:50,284 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-22 22:38:14,261 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 22:38:30,853 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 22:38:30,860 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 22:39:43,921 - Consumer_han_0 - ERROR - Error Putting Message: data/TQDN_1/page_1.png | write() argument must be str, not list
+2024-12-22 22:41:04,231 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 22:41:12,671 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 22:41:12,678 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 22:42:24,982 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 22:42:24,982 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-22 22:42:24,982 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-22 22:42:35,739 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 22:42:35,743 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 22:42:44,796 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-22 22:42:44,803 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-22 22:42:46,429 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_4.png
+2024-12-22 22:42:46,435 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-22 22:42:47,643 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-22 22:42:47,646 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-22 22:42:54,178 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_6.png
+2024-12-22 22:42:54,185 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-22 22:42:56,557 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_5.png
+2024-12-22 22:42:56,569 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-22 22:43:12,686 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-22 22:43:19,234 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-22 22:43:21,607 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-22 23:43:18,307 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 23:43:18,309 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-22 23:43:18,310 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-22 23:43:27,665 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:30,322 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:32,574 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:37,235 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:39,539 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:41,081 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:45,168 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:45,169 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-22 23:43:45,170 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-22 23:43:50,005 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:50,007 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-22 23:43:50,007 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-22 23:43:50,719 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:50,720 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-22 23:43:50,720 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-22 23:43:57,252 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:43:59,207 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:00,367 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:04,454 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:06,572 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:12,555 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:12,557 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_4.png
+2024-12-22 23:44:12,557 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_4.png
+2024-12-22 23:44:12,558 - Consumer_han_0 - DEBUG - Consumer_han_0 Process Error ....
+2024-12-22 23:44:15,690 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:16,500 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:16,501 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_5.png
+2024-12-22 23:44:16,501 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_5.png
+2024-12-22 23:44:16,501 - Consumer_han_1 - DEBUG - Consumer_han_1 Process Error ....
+2024-12-22 23:44:23,047 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:26,021 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:30,124 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:30,126 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1/page_6.png
+2024-12-22 23:44:30,126 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_6.png
+2024-12-22 23:44:30,126 - Consumer_han_2 - DEBUG - Consumer_han_2 Process Error ....
+2024-12-22 23:44:31,658 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:33,903 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:47,873 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 23:44:47,874 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-22 23:44:47,875 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-22 23:44:55,928 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:44:58,796 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:04,524 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:05,469 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:07,623 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:12,721 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:14,562 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:14,563 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_2.png
+2024-12-22 23:45:14,563 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_2.png
+2024-12-22 23:45:16,438 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:16,440 - Consumer_han_1 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-22 23:45:16,440 - Consumer_han_1 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-22 23:45:22,647 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:22,648 - Consumer_han_2 - ERROR - Process Error: data/TQDN_1/page_3.png
+2024-12-22 23:45:22,649 - Consumer_han_2 - WARNING - PUT RETRY Message : data/TQDN_1/page_3.png
+2024-12-22 23:45:23,830 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:33,018 - Consumer_han_1 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:34,919 - Consumer_han_2 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:45:35,334 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:46:06,328 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 23:46:16,111 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:46:23,680 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:46:31,256 - Consumer_han_0 - ERROR - Error OCR API: 'HanApiRequest' object has no attribute 'output_json'
+2024-12-22 23:46:31,258 - Consumer_han_0 - ERROR - Process Error: data/TQDN_1/page_1.png
+2024-12-22 23:46:31,258 - Consumer_han_0 - WARNING - PUT RETRY Message : data/TQDN_1/page_1.png
+2024-12-22 23:47:35,204 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 23:47:43,685 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 23:47:43,694 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 23:50:57,765 - Consumer_han_0 - ERROR - Error Putting Message: data/TQDN_1/page_1.png | draw_bounding_boxes() takes 3 positional arguments but 4 were given
+2024-12-22 23:50:57,871 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : data/TQDN_1/page_1.png
+2024-12-22 23:51:50,963 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 23:51:59,264 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 23:51:59,268 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 23:54:58,456 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-22 23:54:58,455 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-22 23:54:58,456 - Consumer_han_2 - INFO - Consumer_han_2 Start Working ....
+2024-12-22 23:55:10,444 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_1.png
+2024-12-22 23:55:10,450 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1/page_1.png
+2024-12-22 23:55:10,980 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_2.png
+2024-12-22 23:55:10,987 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_2.png
+2024-12-22 23:55:16,174 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_3.png
+2024-12-22 23:55:16,178 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_3.png
+2024-12-22 23:55:19,870 - Consumer_han_0 - INFO - OCR SUCCESS: data/TQDN_1/page_5.png
+2024-12-22 23:55:19,878 - Consumer_han_0 - INFO - Process Successful: data/TQDN_1/page_5.png
+2024-12-22 23:55:20,697 - Consumer_han_1 - INFO - OCR SUCCESS: data/TQDN_1/page_4.png
+2024-12-22 23:55:20,709 - Consumer_han_1 - INFO - Process Successful: data/TQDN_1/page_4.png
+2024-12-22 23:55:23,773 - Consumer_han_2 - INFO - OCR SUCCESS: data/TQDN_1/page_6.png
+2024-12-22 23:55:23,782 - Consumer_han_2 - INFO - Process Successful: data/TQDN_1/page_6.png
+2024-12-22 23:55:44,961 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-22 23:55:45,806 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-22 23:55:48,888 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....

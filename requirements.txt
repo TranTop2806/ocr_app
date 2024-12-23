@@ -1,0 +1,8 @@
+requests
+fake_useragent
+streamlit
+nump
+fitz
+uuid
+pillow
+PyPDF2
