@@ -1,6 +1,6 @@
-from logger import Logger
-from config import Config
-from dtype import Message, ApiRequest
+from .logger import Logger
+from .config import Config
+from .dtype import Message, ApiRequest
 from queue import Queue
 
 class Producer:

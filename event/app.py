@@ -1,12 +1,11 @@
 from queue import Queue
-from config import Config
-from producer import Producer
-from consumer import Consumer
-from dtype import Message, ExtractRequest, AppRequest
-from extract import Extractor
-from logger import Logger
+from .config import Config
+from .producer import Producer
+from .consumer import Consumer, StoppableThread
+from .dtype import Message, ExtractRequest, AppRequest
+from .extract import Extractor
+from .logger import Logger
 import os
-from consumer import StoppableThread
 
 class App:
     def __init__(self):

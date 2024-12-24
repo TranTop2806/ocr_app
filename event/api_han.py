@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import requests
 import base64
-from dtype import HanApiRequest, HanApiResponse, OcrApi
+from .dtype import HanApiRequest, HanApiResponse, OcrApi
 
 class HanOcrApi(OcrApi):
     def __init__(self, base_url="https://ocr.kandianguji.com" , email=None, token=None):

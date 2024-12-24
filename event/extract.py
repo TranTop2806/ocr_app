@@ -1,9 +1,9 @@
 from dataclasses import dataclass
 import os
 import fitz
-from logger import Logger
-from config import Config
-from dtype import ExtractRequest, HanApiRequest, NomApiRequest
+from .logger import Logger
+from .config import Config
+from .dtype import ExtractRequest, HanApiRequest, NomApiRequest
   
 
 class Extractor:

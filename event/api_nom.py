@@ -3,9 +3,9 @@ import requests
 import json
 from fake_useragent import UserAgent
 import urllib3
-from dtype import NomApiRequest, NomApiResponse
+from .dtype import NomApiRequest, NomApiResponse
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-from proxy import Proxies, Agent
+from .proxy import Proxies, Agent
 import random
 
 

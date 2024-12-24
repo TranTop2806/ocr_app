@@ -1,9 +1,9 @@
-from id import IDGenerator
+from .id import IDGenerator
 import os
 import json
 import shutil  # Thêm import này vào đầu file
 from PIL import Image, ImageDraw
-from dtype import Message, ApiResponse
+from .dtype import Message, ApiResponse
 
 
 class UIEvent:
@@ -14,7 +14,7 @@ class UIEvent:
 
     def create_chat(self, chat_name):
         # Create a folder
-        id = self.id_generator.generate_from_string(chat_name)
+        id = self.id_generator.generate()
         chat_path = os.path.join(self.memories, str(id))
         os.makedirs(chat_path)
         # Create new mapping id : file_name in mapping.json

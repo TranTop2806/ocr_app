@@ -51,12 +51,12 @@ class Sidebar:
         self.inject_css()  # Ensure CSS is injected
 
         # Loop through folders in reverse order
-        for folder_name in os.listdir(self.memory_dir)[::-1]:
-            folder_path = os.path.join(self.memory_dir, folder_name)
+        for id, folder_name in reversed(list(st.session_state["folders"].items())):
+            folder_path = os.path.join(self.memory_dir, id)
 
             if os.path.isdir(folder_path):
-                if st.sidebar.button(folder_name, key=f"folder_{folder_name}"):
-                    st.session_state["selected_folder"] = folder_name
+                if st.sidebar.button(folder_name, key=f"folder_{id}"):
+                    st.session_state["selected_folder"] = id
 
 # Example usage:
 # sidebar = Sidebar("path/to/memory_dir")

@@ -1,26 +1,35 @@
 import streamlit as st
-from PIL import Image
 import os
 import json
-import uuid
 import PyPDF2
 import time
 import base64
-from sidebar import Sidebar
+from gui.sidebar import Sidebar
+from event.ui_event import UIEvent
 
 # struct session 
 # - folder_id
 
+
 class OCRApp:
     def __init__(self):
-        self.memory_dir = "./memories"
+        self.memory_dir = "memories"
         self.map_file = os.path.join(self.memory_dir, "map.json")
         self.session_map = {}
 
         self.sidebar = Sidebar(self.memory_dir)
+        self.ui_event = UIEvent(self.memory_dir)
+        
 
     def init_app(self):
+        # get data from memory
+        if "folders" not in st.session_state:
+            st.session_state["folders"] = self.ui_event.get_chat_names()
         st.set_page_config(page_title="PDF OCR App", layout="wide")
+
+    def reload_folder(self):
+        st.session_state["folders"] = self.ui_event.get_chat_names()
+        return st.session_state["folders"]
 
     def ensure_memory_dir(self):
         if not os.path.exists(self.memory_dir):
@@ -39,7 +48,8 @@ class OCRApp:
         with st.sidebar:
             st.header("📂 Folder Structure")
 
-            for folder_name in os.listdir(self.memory_dir)[::-1]:
+            for id, folder_name in st.session_state["folders"].items():
+                print(id, folder_name)
                 folder_path = os.path.join(self.memory_dir, folder_name)
                 if os.path.isdir(folder_path):
                     if st.button(folder_name, key=f"folder_{folder_name}"):
@@ -94,6 +104,7 @@ class OCRApp:
                 with open(pdf_path, "wb") as f:
                     f.write(uploaded_pdf.read())
                 st.success(f"{uploaded_pdf.name} added successfully!")
+
 
             files = [f for f in os.listdir(folder_path) if f.endswith(".pdf")]
             for file in files:
@@ -159,12 +170,9 @@ class OCRApp:
         folder_name = st.text_input("Nhập tên thư mục:", key="new_folder_name")
         if st.button("Tạo Thư Mục"):
             if folder_name:
-                folder_path = os.path.join(self.memory_dir, folder_name)
-                os.makedirs(folder_path, exist_ok=True)
-                self.session_map[folder_name] = folder_name
-                self.save_session_map()
-                st.success(f"Thư mục '{folder_name}' đã được tạo thành công!")
-                st.session_state["selected_folder"] = folder_name
+                folder_id = self.ui_event.create_chat(folder_name)
+                st.session_state["selected_folder"] = folder_id
+                self.reload_folder()
                 st.rerun()
             else:
                 st.error("Vui lòng nhập tên thư mục trước khi tạo.")

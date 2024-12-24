@@ -1,13 +1,13 @@
 from queue import Queue
-from dtype import Message, SuccessMessage, ErrorMessage, ApiRequest, ApiResponse, HanApiRequest
+from .dtype import Message, SuccessMessage, ErrorMessage, ApiRequest, ApiResponse, HanApiRequest
 from typing import Literal, Dict
-from api_han import HanOcrApi
-from api_nom import NomOcrAPI
+from .api_han import HanOcrApi
+from .api_nom import NomOcrAPI
 import time
-from logger import Logger
-from config import Config
+from .logger import Logger
+from .config import Config
 import threading
-from ui_event import Chat
+from .ui_event import Chat
 
 ## test
 import random
