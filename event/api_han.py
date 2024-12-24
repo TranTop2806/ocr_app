@@ -2,6 +2,8 @@ from dataclasses import dataclass
 import requests
 import base64
 from .dtype import HanApiRequest, HanApiResponse, OcrApi
+import os
+from .extract import ExtractRequest, Extractor
 
 class HanOcrApi(OcrApi):
     def __init__(self, base_url="https://ocr.kandianguji.com" , email=None, token=None):
@@ -133,25 +135,42 @@ class HanOcrApi(OcrApi):
          
                 
 if __name__ == "__main__":
+
+    pdf = "memories/7b5a83c0-9261-5e2b-9aa1-182fa09ce326/b50d75f7-eb4d-46b3-b995-2cc65e08f4c3/pdf/file.pdf"  
+    output_path = os.path.join("/".join(pdf.split("/")[:-2]))
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
+    request = ExtractRequest(
+        file_path=pdf,
+        output_path=output_path,
+        type="han"
+    )
+
+    extractor = Extractor()
+
+    api_requests = extractor.extract_images(request)
+
+    chat_id = os.path.basename(os.path.dirname(os.path.dirname(pdf)))
+    pdf_id = os.path.basename(os.path.dirname(pdf))
+    
+
     api = HanOcrApi(
         email="dotu30257@gmail.com", 
         base_url="https://ocr.kandianguji.com", 
         token="790a0ffd-ad16-421b-962b-2b1f9e89ddda"
     )
 
-    request = HanApiRequest(
-        input_file="data/TQDN_1/page_1.png",
-        output_txt=None,
-        output_image="memories/e2a84ad9-08ec-47fb-ad89-4feb6286b447/ocr/page_1.png",
-        position=True
-    )
+    for input_file in os.listdir(os.path.join(output_path , "file")):
+        if not input_file.endswith(".png"):
+            continue
+        request = HanApiRequest(
+            input_file=os.path.join(output_path,"file", input_file),
+            output_txt=None,
+            output_image=f"memories/{chat_id}/{pdf_id}/ocr/{input_file}",
+            position=True
+        )
 
-    response = api.ocr(request)
-    print("Message:", response.message)
-    print("Status:", response.status)
-    print("Text:", response.han_text)
-    print("Nom text:", response.nom_text)
-    print("Lines:", response.lines)
-    print("Width:", response.width)
-    print("Height:", response.height)
+        response = api.ocr(request)
+        print(response)
 

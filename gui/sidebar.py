@@ -57,6 +57,7 @@ class Sidebar:
             if os.path.isdir(folder_path):
                 if st.sidebar.button(folder_name, key=f"folder_{id}"):
                     st.session_state["selected_folder"] = id
+                    st.rerun()
 
 # Example usage:
 # sidebar = Sidebar("path/to/memory_dir")

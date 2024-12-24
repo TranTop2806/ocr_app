@@ -4,6 +4,9 @@ import json
 import shutil  # Thêm import này vào đầu file
 from PIL import Image, ImageDraw
 from .dtype import Message, ApiResponse
+import shutil
+from io import BytesIO
+
 
 
 class UIEvent:
@@ -24,6 +27,9 @@ class UIEvent:
 
         with open(self.map, "w", encoding="utf-8") as f:
             json.dump(session_map, f, ensure_ascii=False, indent=4)
+
+        with open(os.path.join(chat_path, "map.json"), "w", encoding="utf-8") as f:
+            json.dump({}, f, ensure_ascii=False, indent=4)
 
         return str(id)
     
@@ -47,10 +53,6 @@ class UIEvent:
         return session_map
     
 
-    
-    
-    
-
 
 class Chat:
     def __init__(self, chat_id, memories = "./memories"):
@@ -59,10 +61,6 @@ class Chat:
         self.chat_path = os.path.join(self.memories, chat_id)
         self.map = os.path.join(self.chat_path, "map.json")
         self.id_generator = IDGenerator()
-
-    def get_pdfs_name(self):
-        pdfs = [d for d in os.listdir(self.chat_path) if os.path.isdir(os.path.join(self.chat_path, d))]
-        return pdfs
     
     def create_new_map(self, pdf_name, id):
         # check map
@@ -86,20 +84,29 @@ class Chat:
         with open(self.map, "w", encoding="utf-8") as f:
             json.dump(session_map, f, ensure_ascii=False, indent=4) 
     
-    def add_pdf(self, pdf_name):
-        id = self.id_generator.generate()
-        pdf_path = os.path.join(self.chat_path, str(id))
-        os.makedirs(pdf_path)
+    def add_pdf(self, pdf : BytesIO):
+        try:
+            id = self.id_generator.generate()
+            pdf_path = os.path.join(self.chat_path, str(id))
+            os.makedirs(pdf_path)
 
-        # make dir contain ocr results
-        ocr_path = os.path.join(pdf_path, "ocr")
-        os.makedirs(ocr_path)
+            # make dir contain ocr results
+            ocr_path = os.path.join(pdf_path, "ocr")
+            os.makedirs(ocr_path)
 
-        # make dir contain txt files
-        txt_path = os.path.join(pdf_path, "txt")
-        os.makedirs(txt_path)
+            # make dir contain txt files
+            txt_path = os.path.join(pdf_path, "txt")
+            os.makedirs(txt_path)
 
-        return self.create_new_map(pdf_name, id)
+            # copy file to pdf
+            file_path = os.path.join(pdf_path, "pdf")
+            os.makedirs(file_path)
+            with open(os.path.join(file_path, "file.pdf"), "wb") as f:
+                f.write(pdf.read())
+
+            return self.create_new_map(pdf.name, id)
+        except Exception as e:  
+            raise e     
     
     def remove_pdf(self, pdf_id):
         pdf_path = os.path.join(self.chat_path, pdf_id)
@@ -180,8 +187,24 @@ class Chat:
 
         image.save(output_path)
 
+    def get_pdf_path(self, id):
+        return os.path.join(self.chat_path, id, "pdf", "file.pdf")
 
-        
+    def get_files_ids(self):
+        # return { "name" : "id" } 
+        with open(self.map, "r", encoding="utf-8") as f:
+            session_map = json.load(f)
+
+        files_ids = {}
+        for id, name in session_map.items():
+            files_ids[name] = id
+        return files_ids
+    
+    def id_by_name(self, name):
+        files_ids = self.get_files_ids()
+        return files_ids[name]
+    
+
 
 if __name__ == "__main__":
     ui_event = UIEvent()

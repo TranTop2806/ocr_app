@@ -1854,3 +1854,125 @@
 2024-12-22 23:55:44,961 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
 2024-12-22 23:55:45,806 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
 2024-12-22 23:55:48,888 - Consumer_han_2 - INFO - Consumer_han_2 Stop Working ....
+2024-12-25 01:15:52,369 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-25 01:15:52,370 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-25 01:16:17,391 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-25 01:16:17,391 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-25 01:20:41,736 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-25 01:20:41,737 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-25 01:20:42,068 - Producer_1 - ERROR - Invalid message type: <class 'type'>
+2024-12-25 01:20:42,068 - Producer_1 - ERROR - Error Putting Message: data/file\page_1.png | Invalid message type: <class 'type'>
+2024-12-25 01:21:06,774 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-25 01:21:06,774 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-25 01:26:09,257 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-25 01:26:09,256 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-25 01:26:34,310 - Consumer_han_0 - INFO - Consumer_han_0 Stop Working ....
+2024-12-25 01:26:34,310 - Consumer_han_1 - INFO - Consumer_han_1 Stop Working ....
+2024-12-25 01:28:43,989 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-25 01:28:43,989 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-25 01:28:44,342 - Producer_1 - INFO - Produce HAN message: images\file\page_1.png
+2024-12-25 01:28:44,342 - Producer_1 - INFO - Produce HAN message: images\file\page_2.png
+2024-12-25 01:28:44,343 - Producer_1 - INFO - Produce HAN message: images\file\page_3.png
+2024-12-25 01:28:44,343 - Producer_1 - INFO - Produce HAN message: images\file\page_4.png
+2024-12-25 01:28:44,343 - Producer_1 - INFO - Produce HAN message: images\file\page_5.png
+2024-12-25 01:28:44,344 - Producer_1 - INFO - Produce HAN message: images\file\page_6.png
+2024-12-25 01:28:54,696 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:28:54,705 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:28:54,706 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:28:54,706 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:28:55,007 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:28:55,016 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:28:55,016 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:28:55,017 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:29:07,808 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:29:07,811 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:29:07,812 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:29:07,812 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:29:09,061 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:29:09,066 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:29:09,066 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:29:09,067 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:29:20,733 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:29:20,742 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:29:20,742 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:29:20,743 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:29:22,359 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:29:22,364 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:29:22,364 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:29:22,365 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:29:33,717 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:29:33,731 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:29:33,732 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:29:33,733 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:29:35,448 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:29:35,453 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:29:35,453 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:29:35,454 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:30:12,804 - Consumer_han_0 - INFO - Consumer_han_0 Start Working ....
+2024-12-25 01:30:12,805 - Consumer_han_1 - INFO - Consumer_han_1 Start Working ....
+2024-12-25 01:30:13,165 - Producer_1 - INFO - Produce HAN message: images\file\page_1.png
+2024-12-25 01:30:13,166 - Producer_1 - INFO - Produce HAN message: images\file\page_2.png
+2024-12-25 01:30:13,166 - Producer_1 - INFO - Produce HAN message: images\file\page_3.png
+2024-12-25 01:30:13,167 - Producer_1 - INFO - Produce HAN message: images\file\page_4.png
+2024-12-25 01:30:13,167 - Producer_1 - INFO - Produce HAN message: images\file\page_5.png
+2024-12-25 01:30:13,167 - Producer_1 - INFO - Produce HAN message: images\file\page_6.png
+2024-12-25 01:30:22,574 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:30:22,577 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:30:22,577 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:30:22,577 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:30:23,211 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:30:23,219 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:30:23,219 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:30:23,220 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:30:35,695 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:30:35,704 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:30:35,705 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:30:35,706 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:30:36,903 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:30:36,912 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:30:36,913 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:30:36,914 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:30:50,108 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:30:50,111 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:30:50,112 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:30:50,112 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:30:51,436 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:30:51,440 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:30:51,440 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:30:51,440 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:31:02,406 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:31:02,412 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:31:02,412 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:02,413 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:31:07,413 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:31:07,419 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:31:07,419 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:07,420 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:31:15,216 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:31:15,220 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:31:15,221 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:15,221 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:31:20,760 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:31:20,766 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:31:20,766 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:20,766 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:31:27,900 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:31:27,908 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:31:27,908 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:27,909 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:31:40,199 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:31:40,207 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:31:40,207 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:40,209 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:31:44,194 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:31:44,202 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:31:44,202 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:44,202 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-25 01:31:52,371 - Consumer_han_1 - INFO - OCR SUCCESS: images\file\page_2.png
+2024-12-25 01:31:52,376 - Consumer_han_1 - INFO - Process Successful: images\file\page_2.png
+2024-12-25 01:31:52,376 - Consumer_han_1 - ERROR - Error Putting Message: images\file\page_2.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:52,377 - Consumer_han_1 - ERROR - Consumer_han_1 RETRY OCR API 1 : images\file\page_2.png
+2024-12-25 01:31:56,482 - Consumer_han_0 - INFO - OCR SUCCESS: images\file\page_1.png
+2024-12-25 01:31:56,487 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
+2024-12-25 01:31:56,487 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+2024-12-25 01:31:56,488 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png

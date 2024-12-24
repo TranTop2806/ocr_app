@@ -88,6 +88,7 @@ class AppRequest:
     chat_id: str
     type: Literal["han", "nom"]
     pdfs: list[str]  = field(default_factory=list)
+    pdf_id: str = None
 
 
     

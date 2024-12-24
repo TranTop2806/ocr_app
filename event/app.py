@@ -61,6 +61,7 @@ class App:
             self.logger.info(f"Consumer {consumer.name} stopped")
 
     def start(self, app_request: AppRequest):
+        num_message = 0
         self.start_consumers(app_request.type)  
 
         # Validate request
@@ -74,34 +75,45 @@ class App:
                 self.logger.error(f"File not found: {pdf}")
                 self.error_queue.put(f"File not found: {pdf}")
                 continue
+
+            output_path = os.path.join("/".join(pdf.split("/")[:-2]) , "images")
+            if not os.path.exists(output_path):
+                os.makedirs(output_path)
             request = ExtractRequest(
                 file_path=pdf,
-                output_path="data/",
-                type=type
+                output_path=output_path,
+                type=app_request.type
             )
             api_requests = self.extractor.extract_images(request)
             for api_request in api_requests:
                 message = Message(
                     request=api_request,
-                    type=type
+                    type=app_request.type,
+                    chat_id=app_request.chat_id,
+                    pdf_id=app_request.pdf_id
+
                 )
                 self.producer.produce(message)
+                num_message += 1
+        
+        return num_message
 
 class Listener(StoppableThread):
     def __init__(self, app: Queue):
         super().__init__()
         self.app = app
         
-    def run(self):
+    def run(self , progress_bar, status_text, num_message):
         while not self.stopped():
             try:
-                message: Message = self.app.success_queue.get(timeout=self.app.config.timeout)
-                print("UI Success: ", message.request.input_file)
+                message = self.worker.success_queue.get(timeout=self.worker.config.timeout)
+                progress_bar.progress(progress_bar.progress + 1)
+                status_text.write(f"Processing {progress_bar.progress}/{num_message}")
             except Exception:
                 continue
 
             try:
-                error = self.app.error_queue.get(timeout=self.app.config.timeout)
+                error = self.worker.error_queue.get(timeout=self.worker.config.timeout)
                 print("UI Error: ", error)
             except Exception:
                 continue
