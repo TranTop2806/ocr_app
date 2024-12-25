@@ -1976,3 +1976,7 @@
 2024-12-25 01:31:56,487 - Consumer_han_0 - INFO - Process Successful: images\file\page_1.png
 2024-12-25 01:31:56,487 - Consumer_han_0 - ERROR - Error Putting Message: images\file\page_1.png | join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
 2024-12-25 01:31:56,488 - Consumer_han_0 - ERROR - Consumer_han_0 RETRY OCR API 1 : images\file\page_1.png
+2024-12-26 00:05:09,696 - Extractor - ERROR - Error extracting pdf: __init__() got an unexpected keyword argument 'output_file'
+2024-12-26 00:05:16,536 - Extractor - ERROR - Error extracting pdf: __init__() got an unexpected keyword argument 'output_file'
+2024-12-26 00:05:28,060 - Extractor - ERROR - Error extracting pdf: __init__() got an unexpected keyword argument 'output_file'
+2024-12-26 00:08:11,508 - Extractor - ERROR - Error extracting pdf: __init__() got an unexpected keyword argument 'output_file'

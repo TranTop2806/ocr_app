@@ -49,7 +49,6 @@ class NomOcrAPI():
         with open(input_file, "rb") as f:
             # base 64
             files = {"image_file": f}
-            print("size", os.path.getsize(input_file))
             try:
                 response = self.session.post(url, files=files, headers=headers, proxies=self.proxies, verify=False)
                 response.raise_for_status()
@@ -58,7 +57,6 @@ class NomOcrAPI():
                 if not res_json.get("is_success", False):
                     raise Exception(res_json.get("message", "Image upload failed"))
 
-                print(f"Image uploaded successfully: {res_json}")
                 return res_json.get("data", {}).get("file_name")
             except requests.exceptions.RequestException as e:
                 print(f"Error uploading image: {e}")
@@ -78,7 +76,6 @@ class NomOcrAPI():
 
             with open(output_path, "wb") as f:
                 f.write(response.content)
-            print(f"Image downloaded successfully: {output_path}")
         except requests.exceptions.RequestException as e:
             print(f"Error downloading image: {e}")
             raise e
@@ -96,6 +93,8 @@ class NomOcrAPI():
             res_json = response.json()
             if not res_json.get("is_success", False):
                 raise Exception(res_json.get("message", "OCR processing failed"))
+            
+            result_file = res_json.get("data", {}).get("result_file_name", "")
             
             text = res_json.get("data", {}).get("result_ocr_text", [])
             result_bbox = res_json.get("data", {}).get("result_bbox", [])
@@ -122,7 +121,7 @@ class NomOcrAPI():
                     json.dump(res_json, f, ensure_ascii=False, indent=4)
                 print(f"OCR result saved to: {output_file}")
 
-            return result
+            return result, result_file
         except requests.exceptions.RequestException as e:
             print(f"Error performing OCR: {e}")
             raise e
@@ -156,7 +155,6 @@ class NomOcrAPI():
             if not res_json.get("is_success", False):
                 raise Exception(res_json.get("message", "Translation failed"))
 
-            print(f"Translation result: {res_json}")
             viet_text = res_json.get("data", {}).get("result_text_transcription", "")
             return clean_text_list(viet_text)
         except requests.exceptions.RequestException as e:
@@ -174,11 +172,11 @@ class NomOcrAPI():
             uploaded_file_name = self.upload_image(request.input_file)
 
             # 2. Perform OCR
-            result = self.perform_ocr(uploaded_file_name)
+            result, result_file = self.perform_ocr(uploaded_file_name)
 
             # 3. Download processed image
             if request.output_image:
-                self.download_image(uploaded_file_name, request.output_image)
+                self.download_image(result_file, request.output_image)
 
             print("OCR process completed successfully!")
 

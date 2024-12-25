@@ -8,6 +8,7 @@ from .logger import Logger
 from .config import Config
 import threading
 from .ui_event import Chat
+import os
 
 ## test
 import random
@@ -51,9 +52,9 @@ class Consumer(StoppableThread):
             self.api = NomOcrAPI()
         elif self.type == "han":
             self.api = HanOcrApi(
-                email="dotu30257@gmail.com", 
+                email=os.getenv("EMAIL"), 
                 base_url="https://ocr.kandianguji.com", 
-                token="790a0ffd-ad16-421b-962b-2b1f9e89ddda"
+                token=os.getenv("TOKEN")
             )
         else:
             raise Exception("Invalid type")
@@ -63,7 +64,6 @@ class Consumer(StoppableThread):
         retries = self.config.max_retries
         while retries > 0 and not self.stopped():
             try:
-                print("REQUEST: ", message.request)
                 response = self.api.ocr(message.request)
                 self.logger.info(f"OCR SUCCESS: {message.request.input_file}")
             except Exception as e:
@@ -71,7 +71,6 @@ class Consumer(StoppableThread):
                 retries -= 1
                 continue
             
-            print("RESPONSE: ", response)
             if response.status == 200:
                 success_message = SuccessMessage(
                     message=f"Success OCR file: {message.request.input_file}",

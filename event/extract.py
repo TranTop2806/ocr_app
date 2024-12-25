@@ -11,6 +11,7 @@ class Extractor:
         self.logger = Logger(name="Extractor", handlers=Config().logging_handler)
     
     def extract_images(self, request: ExtractRequest):
+        type = request.type
         api_requests = []
         if not os.path.exists(request.file_path):
             print(f"File not found: {request.file_path}")
@@ -35,6 +36,7 @@ class Extractor:
                 image = page.get_pixmap()  
                 output_file = os.path.join(output_path, f"page_{page_number + 1}.png")
                 image.save(output_file)  
+
                 if request.type == "han":
                     api_request = HanApiRequest(
                         input_file=output_file,
@@ -42,7 +44,10 @@ class Extractor:
                     )
                 else:
                     api_request = NomApiRequest(
-                        input_file=output_file
+                        input_file=output_file,
+                        # memories\\419568ca-cb1b-496e-bf44-0218a54de0d4\\a1843577-e115-4ee6-84dd-b88f847a8529\\images\\page_1.png => memories\\419568ca-cb1b-496e-bf44-0218a54de0d4\\a1843577-e115-4ee6-84dd-b88f847a8529\\ocr\\page_1.png
+                        # images => ocr
+                        output_image=output_file.replace("images", "ocr")
                     )
                 api_requests.append(api_request)
         except Exception as e:

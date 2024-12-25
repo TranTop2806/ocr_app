@@ -1,8 +1,14 @@
 requests
 fake_useragent
 streamlit
-nump
+numpy
 fitz
 uuid
 pillow
 PyPDF2
+pymupdf
+starlette
+google
+google-cloud-translate
+python-dotenv
+frontend

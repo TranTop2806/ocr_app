@@ -8,6 +8,7 @@ from gui.sidebar import Sidebar
 from event.ui_event import UIEvent, Chat
 from event.app import App, AppRequest, Listener
 from event.app_sync import AppSync, Processor
+from dotenv import load_dotenv
 # struct session 
 # - folder_id
 
@@ -21,11 +22,11 @@ class OCRApp:
 
         self.ui_event = UIEvent(self.memory_dir)
         self.sidebar = Sidebar(self.memory_dir, self.ui_event)
-        print("RESTART APP")
-        print("Current session state: ", st.session_state)
         if "selected_folder" in st.session_state:
             self.chat = Chat(st.session_state["selected_folder"], self.memory_dir)
             self.folder_path = os.path.join(self.memory_dir, st.session_state["selected_folder"])
+
+        self.type = "han"
         
 
     def init_app(self):
@@ -56,7 +57,6 @@ class OCRApp:
             st.header("📂 Folder Structure")
 
             for id, folder_name in st.session_state["folders"].items():
-                print(id, folder_name)
                 folder_path = os.path.join(self.memory_dir, folder_name)
                 if os.path.isdir(folder_path):
                     if st.button(folder_name, key=f"folder_{folder_name}"):
@@ -146,14 +146,28 @@ class OCRApp:
                             st.button("OCR Completed", key=f"ocr_completed_{id}", disabled=True, help="OCR has been completed for this file.")
                         
                         elif "is_ocr" not in st.session_state:
-                            if st.button("OCR", key=f"ocr_{id}"):
-                                st.session_state["is_ocr"] = id
-                                st.rerun()
+                            # if st.button("OCR", key=f"ocr_{id}"):
+                            #     st.session_state["is_ocr"] = id
+                            #     st.rerun()
+
+                            col1, col2 = st.columns(2)
+
+                            with col1:
+                                if st.button("OCR Hán", key=f"ocr_han_{id}"):
+                                    st.session_state["is_ocr"] = id
+                                    st.session_state["is_ocr_type"] = "han"
+                                    st.rerun()
+
+                            with col2:
+                                if st.button("OCR Nôm", key=f"ocr_nom_{id}"):
+                                    st.session_state["is_ocr"] = id
+                                    st.session_state["is_ocr_type"] = "nom"
+                                    st.rerun()
                         
                         
                         elif st.session_state["is_ocr"] == id:
                             pdf_path = os.path.join(folder_path, id , "pdf", "file.pdf")
-                            responses = self.app_sync.start(pdf_path, type="han",  test=True)
+                            responses = self.app_sync.start(pdf_path, type=st.session_state["is_ocr_type"],  test=False)
                             st.session_state.pop("is_ocr")
                             st.rerun()
 
@@ -163,7 +177,6 @@ class OCRApp:
         # Tab 2: Preview
         with tabs[1]:
             files = []
-            print("Current folder: ", st.session_state["selected_folder"])
             for file_id , file_name in reversed(self.chat.get_pdf_names().items()):
                 files.append(file_name)
             selected_file = st.selectbox("Select a file to preview", files, key=f"preview_select")
@@ -177,7 +190,6 @@ class OCRApp:
             
             # Lấy danh sách file từ chat
             files = []
-            print("Current folder: ", st.session_state["selected_folder"])
             files_ids = self.chat.get_files_ids()
             for file_id, file_name in reversed(self.chat.get_pdf_names().items()):
                 files.append(file_name)

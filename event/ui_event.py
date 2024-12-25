@@ -168,7 +168,7 @@ class Chat:
         return session_map
         
     def get_page_id_from_path(self, path):
-        return path.split("/")[-1].split(".")[0]
+        return os.path.basename(path).split(".")[0]
     
     def draw_bounding_boxes(self,message : Message, response : ApiResponse, page_id):
         """
