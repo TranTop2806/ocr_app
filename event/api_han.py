@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+print("Credentials from environ: {}".format(os.getenv("GOOGLE_APPLICATION_CREDENTIALS")))
 
 class HanOcrApi(OcrApi):
     def __init__(self, base_url="https://ocr.kandianguji.com", email=None, token=None):
@@ -21,7 +22,7 @@ class HanOcrApi(OcrApi):
         }
         self.session = requests.session()
         self.proxies = None
-        self.translate_client = translate.Client(credentials="credential/key.json")
+        self.translate_client = translate.Client()
 
     def translate(self, han_text: str):
         """Dịch văn bản từ chữ Hán sang tiếng Việt sử dụng Google Cloud Translation API."""
