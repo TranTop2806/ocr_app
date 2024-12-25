@@ -20,8 +20,9 @@ class Extractor:
             print(f"Invalid file format: {request.file_path}")
             return
         
-        output_folder = os.path.basename(request.file_path).split(".")[0]
-        output_path = os.path.join(request.output_path, output_folder)
+        pdf_folder = os.path.dirname(request.file_path)  
+        pdf_folder = os.path.dirname(pdf_folder)
+        output_path = os.path.join(pdf_folder, "images")
         if not os.path.exists(output_path):
             os.makedirs(output_path)
         
@@ -53,10 +54,11 @@ class Extractor:
 
 if __name__ == "__main__":
     request = ExtractRequest(
-        file_path="data/TQDN_1.pdf",     
-        output_path="data/",
+        file_path="memories/7b5a83c0-9261-5e2b-9aa1-182fa09ce326/e2a84ad9-08ec-47fb-ad89-4feb6286b447/pdf/file.pdf",     
         type = "han"
     )
     
     extractor = Extractor()
-    extractor.extract_images(request)
+    request_api = extractor.extract_images(request)
+    for req in request_api:
+        print(req)

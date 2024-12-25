@@ -7,8 +7,7 @@ import base64
 from gui.sidebar import Sidebar
 from event.ui_event import UIEvent, Chat
 from event.app import App, AppRequest, Listener
-import threading
-
+from event.app_sync import AppSync, Processor
 # struct session 
 # - folder_id
 
@@ -18,9 +17,10 @@ class OCRApp:
         self.map_file = os.path.join(self.memory_dir, "map.json")
         self.session_map = {}
         self.worker = worker
+        self.app_sync = AppSync()
 
-        self.sidebar = Sidebar(self.memory_dir)
         self.ui_event = UIEvent(self.memory_dir)
+        self.sidebar = Sidebar(self.memory_dir, self.ui_event)
         print("RESTART APP")
         print("Current session state: ", st.session_state)
         if "selected_folder" in st.session_state:
@@ -99,22 +99,24 @@ class OCRApp:
                 st.error("Please provide a folder name.")
 
     def folder_work_interface(self, folder_path):
-        st.header("Working in Directory")
+        st.header(f"Working in Directory {self.ui_event.get_name_by_id(st.session_state['selected_folder']) if self.ui_event.get_name_by_id(st.session_state['selected_folder']) else ''}")
         tabs = st.tabs(["File Management", "Preview", "OCR Results"])
 
         # Tab 1: File Management
         with tabs[0]:
-            st.subheader("File Management")                
             uploaded_pdf = st.file_uploader("Choose a PDF file to upload", type="pdf", key="pdf_uploader")
-            if uploaded_pdf:
+            if uploaded_pdf and "pdf_uploaded" not in st.session_state:
                 try:
                     self.chat.add_pdf(uploaded_pdf)
                     st.success(f"{uploaded_pdf.name} added successfully!")
-                    # Clear the uploaded file
-                    uploaded_pdf = None
+                    
+                    # Đánh dấu trạng thái upload trong session_state
+                    st.session_state["pdf_uploaded"] = True
                 except Exception as e:
-                    st.error(f"Error Upload file: {e}")
+                    st.error(f"Error uploading file: {e}")
 
+            # Reset trạng thái upload khi bấm nút khác hoặc chọn file khác
+            
 
             map_file = self.chat.get_pdf_names()
             if map_file == {}: 
@@ -145,36 +147,33 @@ class OCRApp:
                         
                         elif "is_ocr" not in st.session_state:
                             if st.button("OCR", key=f"ocr_{id}"):
-                                st.session_state["is_ocr"] = True
+                                st.session_state["is_ocr"] = id
                                 st.rerun()
-                                # with st.container():
-                                #     st.subheader(f"OCR Options for {file}")
-                                #     ocr_option = st.radio("Select OCR Type", ["Hán", "Nôm"], key=f"ocr_option_{id}")
-                                #     if st.button("Start OCR", key=f"start_ocr_{id}"):
-                                #         with st.spinner("Running OCR..."):
-                                #             time.sleep(2)  # Simulate OCR process
-                                #             st.success(f"OCR completed for {file} with option {ocr_option}.")
-
                         
-                        else:
-                            
+                        
+                        elif st.session_state["is_ocr"] == id:
                             pdf_path = os.path.join(folder_path, id , "pdf", "file.pdf")
-                            
-                        
+                            responses = self.app_sync.start(pdf_path, type="han",  test=True)
+                            st.session_state.pop("is_ocr")
+                            st.rerun()
+
+            if "pdf_uploaded" in st.session_state and not uploaded_pdf:
+                st.session_state.pop("pdf_uploaded")
+                 
         # Tab 2: Preview
         with tabs[1]:
             files = []
             print("Current folder: ", st.session_state["selected_folder"])
             for file_id , file_name in reversed(self.chat.get_pdf_names().items()):
                 files.append(file_name)
-            selected_file = st.selectbox("Select a file to preview", files, key=f"preview_select {time.time()}")
+            selected_file = st.selectbox("Select a file to preview", files, key=f"preview_select")
             if selected_file:
                 file_path = self.chat.get_pdf_path(self.chat.id_by_name(selected_file))
                 st.markdown(self.display_pdf(file_path), unsafe_allow_html=True)
+                # st.rerun()
 
         # Tab 3: OCR Results
         with tabs[2]:
-            st.subheader("OCR Results")
             
             # Lấy danh sách file từ chat
             files = []
@@ -184,7 +183,7 @@ class OCRApp:
                 files.append(file_name)
             
             # Chọn file từ danh sách
-            selected_file = st.selectbox("Select a file to preview", files, key="preview_select")
+            selected_file = st.selectbox("Select a file to preview", files, key="result_select")
             
             if selected_file:
                 file_id = self.chat.id_by_name(selected_file)
@@ -210,7 +209,7 @@ class OCRApp:
                             continue
 
                         han_lines = nom_text.splitlines()
-                        viet_lines = vi_text.splitlines()
+                        viet_lines = vi_text.splitlines()[1:]
 
                         # Nếu số dòng không khớp, chỉ lấy phần chung
                         min_length = min(len(han_lines), len(viet_lines))
@@ -218,14 +217,14 @@ class OCRApp:
                             f"{han_lines[i]}\n{viet_lines[i]}" for i in range(min_length)
                         )
 
-                        st.subheader(f"Page: {os.path.basename(img_path).replace('.png', '')}")
+                        st.subheader(f"{os.path.basename(img_path).replace('.png', '')}")
                         cols = st.columns([1, 2])
 
                         with cols[0]:
-                            st.image(img_path, caption="OCR Image", use_container_width=True)
+                            st.image(img_path, use_container_width=True)
 
                         with cols[1]:
-                            st.text_area("Hán-Việt Combined Text", combined_text, height=410, max_chars=None, key=f"combined_text_{idx}")
+                            st.text_area("Hán-Việt Combined Text", combined_text, height=400, max_chars=None, key=f"combined_text_{idx}")
                 else:
                     st.warning("No OCR images or text files found in the selected directory.")
             else:
@@ -286,7 +285,6 @@ class OCRApp:
                 self.render_home()
 
         st.write("\n---")   
-        st.write("**PDF OCR App** - Developed with Streamlit")
 
 if __name__ == "__main__":
     if "worker" not in st.session_state:

@@ -51,6 +51,12 @@ class UIEvent:
         with open(self.map, "r", encoding="utf-8") as f:
             session_map = json.load(f)
         return session_map
+
+    def get_name_by_id(self, id):
+        try:
+            return self.get_chat_names()[id]
+        except:
+            return None
     
 
 
@@ -203,6 +209,7 @@ class Chat:
     def id_by_name(self, name):
         files_ids = self.get_files_ids()
         return files_ids[name]
+    
     
 
 

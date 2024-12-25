@@ -32,8 +32,8 @@ class ApiResponse:
 
 @dataclass
 class NomApiResponse(ApiResponse):
-    nom_text = list[str]
-    viet_text = list[str]
+    nom_text : list[str] = field(default_factory=list)
+    viet_text : list[str] = field(default_factory=list)
 
 @dataclass
 class HanApiResponse(ApiResponse):
@@ -77,7 +77,6 @@ class SuccessMessage:
 @dataclass
 class ExtractRequest:
     file_path: str      
-    output_path: str   
     type: Literal["han", "nom"]
 
 ###########################################

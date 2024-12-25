@@ -8,8 +8,6 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from .proxy import Proxies, Agent
 import random
 
-
-
 class NomOcrAPI():
     def __init__(self, base_url="https://tools.clc.hcmus.edu.vn/", proxies=None):
         self.session = requests.session()
@@ -85,7 +83,7 @@ class NomOcrAPI():
             print(f"Error downloading image: {e}")
             raise e
 
-    def perform_ocr(self, file_name: str, output_file: str):
+    def perform_ocr(self, file_name: str, output_file: str = None):
         """Gửi yêu cầu OCR và lưu kết quả vào file JSON"""
         url = f"{self.base_url}api/web/clc-sinonom/image-ocr"
         headers = {**self.headers, "User-Agent": self._get_user_agent()}
@@ -107,12 +105,16 @@ class NomOcrAPI():
                 bbox = line[1][0]
                 lines.append((text_line, bbox))
 
+            viet_text = self.translate(text)
+
             result = NomApiResponse(
                 message="Success performing OCR" if response.status_code == 200 else "Failed performing OCR",
                 status=response.status_code,
-                text=text,
+                nom_text=text,
+                viet_text=viet_text,
                 lines=lines
             )
+
 
             # Lưu kết quả vào file JSON
             if output_file:
@@ -126,9 +128,24 @@ class NomOcrAPI():
             raise e
         
     def translate(self, nom_text: str):
-        """Dịch văn bản từ chữ Hán-Nôm sang tiếng Việt"""
-        url = f"{self.base_url}api/web/clc-sinonom/sinonom-transliteration"
-        headers = {**self.headers, "User-Agent": self._get_user_agent()}
+        """Dịch văn bản từ chữ Hán sang tiếng Việt"""
+
+        def clean_text_list(input_list: list[str]) -> list[str]:
+            result = []
+            for item in input_list:
+                cleaned_item = (
+                    item.replace('[', '')
+                        .replace(']', '')
+                        .replace('"', '')
+                        .replace(',', '')
+                        .strip()
+                )
+                if cleaned_item and len(cleaned_item) > 1:
+                    result.append(cleaned_item)
+            return result
+        
+        url = f"https://tools.clc.hcmus.edu.vn/api/web/clc-sinonom/sinonom-transliteration"
+        headers = {**self.headers, "User-Agent": "Mozilla/5.0" }
         body = {"text": nom_text}
 
         try:
@@ -140,9 +157,11 @@ class NomOcrAPI():
                 raise Exception(res_json.get("message", "Translation failed"))
 
             print(f"Translation result: {res_json}")
-            return res_json.get("data", {}).get("result_text_transcription", "")
+            viet_text = res_json.get("data", {}).get("result_text_transcription", "")
+            return clean_text_list(viet_text)
         except requests.exceptions.RequestException as e:
             print(f"Error translating text: {e}")
+
 
     def ocr(self, request: NomApiRequest):
         """Thực hiện toàn bộ quy trình OCR"""
@@ -155,7 +174,7 @@ class NomOcrAPI():
             uploaded_file_name = self.upload_image(request.input_file)
 
             # 2. Perform OCR
-            result = self.perform_ocr(uploaded_file_name, request.output_json)
+            result = self.perform_ocr(uploaded_file_name)
 
             # 3. Download processed image
             if request.output_image:
@@ -170,20 +189,16 @@ class NomOcrAPI():
 
 
 if __name__ == "__main__":
-    # Tạo yêu cầu OCR với các đường dẫn đầu vào và đầu ra
     request = NomApiRequest(
-        input_file="data/TQDN_1/page_1.png",   # File ảnh cần OCR
-        # output_json="output_result.json",  # File JSON lưu kết quả OCR
-        output_image="output_image.png"    # Ảnh tải về từ server
+        input_file="data/TQDN_1/page_1.png",  
+        output_image="output_image.png"    
     )
 
     api = NomOcrAPI()
     result = api.ocr(request)
     print("Message:", result.message)
     print("Status:", result.status)
-    print("Text:", result.text)
+    print("Text:", result.nom_text)
     print("Lines:", result.lines)
-
-    sino_text = api.translate(result.text)
-    print("Sino-Vietnamese text:", sino_text)
+    print("Viet text: ", result.viet_text)
 
