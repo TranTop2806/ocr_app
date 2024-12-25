@@ -11,5 +11,5 @@ worker:
 	python event/worker.py
 
 run:
-	streamlit run gui/app.py
+	streamlit run app.py
 	
