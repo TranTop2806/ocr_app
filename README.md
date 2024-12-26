@@ -1,8 +1,8 @@
-# PDF OCR and translator Application
+# PDF OCR and Translator Application
 
 ## Overview
 
-`TranTop2806-ocr_app` is a Streamlit-based web application designed to perform Optical Character Recognition (OCR) on PDF documents. It supports both Han (Chinese) and Nom (Vietnamese demotic script) OCR, allowing users to extract text from scanned documents and manage the results.
+`TranTop2806-ocr_app` is a Streamlit-based web application designed to perform Optical Character Recognition (OCR) and Translator on PDF documents. It supports both Han (Chinese) and Nom (Vietnamese demotic script) OCR, allowing users to extract text from scanned documents and manage the results.
 
 ## Features
 
@@ -34,8 +34,8 @@ The application uses the following environment variables, which should be set in
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/TranTop2806-ocr_app.git
-    cd TranTop2806-ocr_app
+    git clone https://github.com/TranTop2806/ocr_app.git
+    cd ocr_app
     ```
 2.  Create a virtual environment (optional, but recommended):
     ```bash
@@ -50,7 +50,7 @@ The application uses the following environment variables, which should be set in
 
 ### Running the Application
 
-#### Using Streamlit directly:
+#### Using Streamlit directly (Build Docker):
 
 ```bash
 make run
